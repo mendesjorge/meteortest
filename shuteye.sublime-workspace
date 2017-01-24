@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Origi",
+				"Origin2"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"secon",
+				"secondItem (?)"
+			],
+			[
+				"first",
+				"firstItem (?)"
+			],
+			[
+				"firs",
+				"firstItem (?)"
+			],
+			[
+				"ch",
+				"children\t.children()"
+			],
+			[
+				"whi",
+				"while (?)"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"list",
+				"listId (str)"
+			],
+			[
+				"insert",
+				"insertNewList (fn/1)"
+			],
+			[
+				"listid",
+				"listId"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"scr",
+				"scrollTop"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "shuteye/server/main.js",
+			"settings":
+			{
+				"buffer_size": 141,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shuteye/imports/api/tasks.js",
+			"settings":
+			{
+				"buffer_size": 99,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/* CSS declarations go here */\n",
+			"file": "shuteye/client/main.css",
+			"file_size": 1734,
+			"file_write_time": 131294243464511601,
+			"settings":
+			{
+				"buffer_size": 31,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sublinter",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"list package",
+			"package",
+			"installed",
+			"package",
+			"packagecontrol",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/server"
+	],
+	"file_history":
+	[
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/App.jsx",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/Task.jsx",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client/main.jsx",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client/main.scss",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client/main.html",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/css/main.scss",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/css",
+		"/C/Users/Luiz/AppData/Roaming/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/C/Users/Luiz/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Luiz/AppData/Roaming/Sublime Text 3/Packages/packagecontrol/Package Control.sublime-package",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/server/main.js",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client/main.js",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye.sublime-project",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/shuteye.sublime-project",
+		"/C/Users/Luiz/Documents/work/webhelpers/melomatch/Scripts/matchcore.js",
+		"/C/Users/Luiz/Documents/work/webhelpers/melomatch/Index.html",
+		"/C/Users/Luiz/Documents/work/Sites/DefenderTourSite/project/gulpfile.js",
+		"/C/Users/Luiz/Documents/work/Sites/DefenderTourSite/project/Styles/Index.css",
+		"/C/Users/Luiz/Documents/work/Sites/DefenderTourSite/project/build/Styles/Index.scss",
+		"/C/Users/Luiz/Documents/work/webhelpers/Scripts/matchcore.js",
+		"/C/Users/Luiz/Documents/work/webhelpers/Index.html",
+		"/C/Users/Luiz/Documents/work/Sites/DefenderTourSite/project/Views/Index.html",
+		"/C/Users/Luiz/Documents/work/Sites/DefenderTourSite/project/Scripts/Index.js",
+		"/E/PEF_082016/aerobio.bat",
+		"/E/PEF_082016/forca muscular.bat",
+		"/C/Users/Luiz/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Luiz/Documents/work/DefenderTourSite/project/Styles/Index.css",
+		"/C/Users/Luiz/Documents/work/DefenderTourSite/Index.html",
+		"/C/Users/Luiz/Desktop/test.js",
+		"/C/Users/Luiz/AppData/Roaming/Sublime Text 3/Packages/User/JSC.sublime-build",
+		"/C/Users/Luiz/Desktop/videoPlayer.html",
+		"/C/Users/Luiz/Desktop/Deadpool.2016.HDTS.600MB.MkvCage.srt",
+		"/C/Users/Luiz/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/Users/Luiz/Downloads/The Hunger.Games-Mockingjay.Part.2.2015-HD-TS.XVID.AC3.HQ.Hive--CM8.srt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "shuteye/server/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shuteye/imports/api/tasks.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "shuteye/client/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "Packages/User/Node.sublime-build",
+	"project": "shuteye.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
