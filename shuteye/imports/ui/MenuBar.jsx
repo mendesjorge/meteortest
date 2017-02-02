@@ -12,29 +12,29 @@ export default class MenuBar extends Component {
 	    return (
 	    	<nav classname="navbar">
 				<div classname="container">
-					<a classname="navbar-brand" href="#">
+					<a classname="navbar-brand" href="#index">
 						<T>common.navbar.shuteye</T>
 					</a>
 
 					<div classname="collapse navbar-collapse">
 						<ul classname="navbar-nav mr-auto">
 							<li classname="nav-item active">
-								<a classname="nav-link" href="#">
+								<a classname="nav-link" href="#how">
 									<T>common.navbar.HowItWorks</T> 
 								</a>
 							</li>
 							<li classname="nav-item">
-								<a classname="nav-link" href="#">
+								<a classname="nav-link" href="#why">
 									<T>common.navbar.WhyShuteye</T>
 								</a>
 							</li>
 							<li classname="nav-item">
-								<a classname="nav-link" href="#">
+								<a classname="nav-link" href="#start">
 									<T>common.navbar.HowIStart</T>
 								</a>
 							</li>
 							<li classname="nav-item">
-								<a classname="nav-link" href="#">
+								<a classname="nav-link" href="#what">
 									<T>common.navbar.WhatIsNew</T>
 								</a>
 							</li>

@@ -1,8 +1,11 @@
-$backgroundcolor: orange;
+$bgcolor: orange;
+$headerColor: orange;
+$bgnegativecolor: white;
+
 body {
     font-family: sans-serif;
-    background-color: $backgroundcolor;
-    background-image: linear-gradient(to bottom, $backgroundcolor, #918e82 100%);
+    background-color: $bgcolor;
+    background-image: linear-gradient(to bottom, $bgcolor, #918e82 100%);
     background-attachment: fixed;
 
     position: absolute;
@@ -17,6 +20,10 @@ body {
     font-size: 14px;
 }
 
+h1{
+    margin: 0;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -27,6 +34,7 @@ body {
 .navbar .container{
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 header {
@@ -129,4 +137,39 @@ header .hide-completed {
 
 .new-task input {
     padding-bottom: 5px;
+}
+
+.page{
+    height: 100vh;
+
+    #indexPage{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    h1{
+        color:$headerColor;
+        text-decoration: underline;
+    }
+}
+
+#indexPage{
+    background-color:$bgnegativecolor;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#index{
+
+}
+
+.statement{
+    font-size: 28px;
+}
+
+.orange-border{
+    border:solid 2px $bgcolor;
+    border-radius: 7px;
 }

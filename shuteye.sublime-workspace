@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"defa",
+				"defaultLang"
+			],
+			[
 				"Origi",
 				"Origin2"
 			],
@@ -60,31 +64,11 @@
 	"buffers":
 	[
 		{
-			"contents": "import React, { Component, PropTypes } from 'react';\nimport strings from './LanguageStrings.jsx';\n\nexport default class MenuBar extends Component {\n  \n\n  render() {\n  \tlet strings = <strings/>;\n\n    return (\n      <nav class=\"navbar\">\n\t\t<div class=\"container\">\n\t\t\t<a class=\"navbar-brand\" href=\"#\">\n\t\t\t\t{this.strings.get(\"shuteye\")}\n\t\t\t</a>\n\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarsExampleContainer\">\n\t\t\t\t<ul class=\"navbar-nav mr-auto\">\n\t\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t\t<a class=\"nav-link\" href=\"#\">\n\t\t\t\t\t\t\t{strings.get(\"HowItWorks\")} \n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link\" href=\"#\">\n\t\t\t\t\t\t\t{strings.get(\"WhyShuteye\")}\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link disabled\" href=\"#\">\n\t\t\t\t\t\t\t{strings.get(\"HowIStart\")}\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link disabled\" href=\"#\">\n\t\t\t\t\t\t\t{strings.get(\"WhatIsNew\")}\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n    );\n  }\n}\n",
 			"file": "shuteye/imports/ui/MenuBar.jsx",
-			"file_size": 1047,
-			"file_write_time": 131300332758877711,
 			"settings":
 			{
-				"buffer_size": 1002,
+				"buffer_size": 1173,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "shuteye/imports/ui/LanguageStrings.jsx",
-			"settings":
-			{
-				"buffer_size": 552,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "shuteye/imports/ui/Task.jsx",
-			"settings":
-			{
-				"buffer_size": 438,
 				"line_ending": "Windows"
 			}
 		},
@@ -92,7 +76,7 @@
 			"file": "shuteye/imports/ui/App.jsx",
 			"settings":
 			{
-				"buffer_size": 657,
+				"buffer_size": 348,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -101,7 +85,7 @@
 			"file": "shuteye/client/main.scss",
 			"settings":
 			{
-				"buffer_size": 1910,
+				"buffer_size": 1927,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -110,7 +94,7 @@
 			"file": "shuteye/client/main.html",
 			"settings":
 			{
-				"buffer_size": 1122,
+				"buffer_size": 1380,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -123,10 +107,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 317.0,
-		"last_filter": "insta",
+		"height": 354.0,
+		"last_filter": "package control re",
 		"selected_items":
 		[
+			[
+				"package control re",
+				"Package Control: Remove Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -152,7 +140,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 382.0
+		"width": 446.0
 	},
 	"console":
 	{
@@ -180,18 +168,20 @@
 	"expanded_folders":
 	[
 		"/E/Work/Sites/shuteye/shuteye",
-		"/E/Work/Sites/shuteye/shuteye/client",
-		"/E/Work/Sites/shuteye/shuteye/imports",
-		"/E/Work/Sites/shuteye/shuteye/imports/ui"
+		"/E/Work/Sites/shuteye/shuteye/resources",
+		"/E/Work/Sites/shuteye/shuteye/resources/common"
 	],
 	"file_history":
 	[
+		"/E/Work/Sites/shuteye/shuteye/resources/common/en.i18n.json",
+		"/E/Work/Sites/shuteye/shuteye/imports/ui/LanguageStrings.jsx",
+		"/E/Work/Sites/shuteye/shuteye/.meteor/local/dev_bundle/lib/node_modules/yargs/locales/en.json",
+		"/E/Work/Sites/shuteye/shuteye/package.json",
 		"/E/Work/Sites/shuteye/shuteye/server/main.js",
 		"/E/Work/Sites/shuteye/shuteye/imports/api/tasks.js",
 		"/E/Work/Sites/shuteye/shuteye/node_modules/bootstrap/Gruntfile.js",
 		"/E/Work/Sites/shuteye/shuteye/node_modules/bootstrap/package.json",
 		"/E/Work/Sites/shuteye/shuteye/node_modules/bootstrap/grunt/configBridge.json",
-		"/E/Work/Sites/shuteye/shuteye/package.json",
 		"/E/Work/Sites/shuteye/shuteye/.gitignore",
 		"/E/Work/Sites/shuteye/shuteye/client/main.css",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/App.jsx",
@@ -262,7 +252,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -271,99 +261,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1002,
+						"buffer_size": 1173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								233,
-								233
+								200,
+								200
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "shuteye/imports/ui/LanguageStrings.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 552,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								492,
-								492
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 36.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "shuteye/imports/ui/Task.jsx",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "shuteye/imports/ui/App.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 657,
+						"buffer_size": 348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								438,
-								442
+								322,
+								322
 							]
 						],
 						"settings":
@@ -376,24 +310,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "shuteye/client/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1910,
+						"buffer_size": 1927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								523,
-								523
+								1927,
+								1927
 							]
 						],
 						"settings":
@@ -402,28 +336,28 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "shuteye/client/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1122,
+						"buffer_size": 1380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								473,
-								473
+								699,
+								699
 							]
 						],
 						"settings":
@@ -431,10 +365,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -470,7 +404,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 118.0
