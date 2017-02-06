@@ -151,6 +151,7 @@ header .hide-completed {
     h1{
         color:$headerColor;
         text-decoration: underline;
+        font-size: 40px;
     }
 }
 
@@ -170,6 +171,11 @@ header .hide-completed {
 }
 
 .orange-border{
+    background-color: $bgnegativecolor;
     border:solid 2px $bgcolor;
     border-radius: 7px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 10px;
+
 }
