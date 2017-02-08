@@ -1,6 +1,7 @@
 $bgcolor: orange;
 $headerColor: orange;
 $bgnegativecolor: white;
+$headerfontbase: 'sans-serif' 14px;
 
 body {
     font-family: sans-serif;
@@ -25,16 +26,32 @@ h1{
 }
 
 .container {
-    max-width: 600px;
-    margin: 0 auto;
+    /*max-width: 600px;  to remove when all html are in components */
+    /*margin: 0 auto;*/
     min-height: 100%;
-    background: white;
+    background: $bgnegativecolor;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+    font:$headerfontbase;
 
+}
 .navbar .container{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    background-color: $bgcolor;
+    max-width: 600px;
+}
+
+a.nav-link{
+    font-color:$bgcolor;
+    text-transform: uppercase;
+
+}
+
+a.nav-link:hover{
+    transform: scale(1.2);
 }
 
 header {
@@ -152,6 +169,7 @@ header .hide-completed {
         color:$headerColor;
         text-decoration: underline;
         font-size: 40px;
+
     }
 }
 
@@ -163,11 +181,19 @@ header .hide-completed {
 }
 
 #index{
-
+    margin: 30px 0;
 }
 
 .statement{
     font-size: 28px;
+}
+
+#indexPage .statement{
+    margin:0 0 60px 0;
+}
+
+#indexPage .orange-border{
+    margin-bottom: 40px;
 }
 
 .orange-border{
@@ -178,4 +204,9 @@ header .hide-completed {
     font-weight: 600;
     padding: 5px 10px;
 
+}
+
+.dropdown{
+    flex-grow: 1;
+    float: right;
 }

@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-
+import LanguageDrop from './LanguageDrop';
 import i18n from 'meteor/universe:i18n';
 //import LanguageStrings from './LanguageStrings';
 
@@ -10,31 +10,33 @@ export default class MenuBar extends Component {
 	  	const T = i18n.createComponent();
 	  	i18n.setLocale(getLang());
 	    return (
-	    	<nav classname="navbar">
-				<div classname="container">
-					<a classname="navbar-brand" href="#index">
-						<T>common.navbar.shuteye</T>
-					</a>
-
-					<div classname="collapse navbar-collapse">
-						<ul classname="navbar-nav mr-auto">
-							<li classname="nav-item active">
-								<a classname="nav-link" href="#how">
+	    	<nav className="navbar">
+				<div className="container">
+					<div className="nav-header">
+						<a className="navbar-brand" href="#index">
+							<T>common.navbar.shuteye</T>
+						</a>
+						<LanguageDrop/>
+					</div>
+					<div className="collapse navbar-collapse">
+						<ul className="navbar-nav mr-auto">
+							<li className="nav-item active">
+								<a className="nav-link" href="#how">
 									<T>common.navbar.HowItWorks</T> 
 								</a>
 							</li>
-							<li classname="nav-item">
-								<a classname="nav-link" href="#why">
+							<li className="nav-item">
+								<a className="nav-link" href="#why">
 									<T>common.navbar.WhyShuteye</T>
 								</a>
 							</li>
-							<li classname="nav-item">
-								<a classname="nav-link" href="#start">
+							<li className="nav-item">
+								<a className="nav-link" href="#start">
 									<T>common.navbar.HowIStart</T>
 								</a>
 							</li>
-							<li classname="nav-item">
-								<a classname="nav-link" href="#what">
+							<li className="nav-item">
+								<a className="nav-link" href="#what">
 									<T>common.navbar.WhatIsNew</T>
 								</a>
 							</li>
