@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"wi",
+				"width"
+			],
+			[
+				"langua",
+				"LanguageDrop"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"ani",
+				"animation-name"
+			],
+			[
+				"anima",
+				"animation-direction"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
 				"f",
 				"font-size"
 			],
@@ -18,10 +54,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"flex",
-				"flex-direction"
 			],
 			[
 				"defa",
@@ -87,7 +119,16 @@
 			"file": "shuteye/imports/ui/MenuBar.jsx",
 			"settings":
 			{
-				"buffer_size": 1193,
+				"buffer_size": 1305,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shuteye/imports/ui/LanguageDrop.jsx",
+			"settings":
+			{
+				"buffer_size": 1201,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -105,7 +146,7 @@
 			"file": "shuteye/client/main.scss",
 			"settings":
 			{
-				"buffer_size": 2593,
+				"buffer_size": 3091,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -127,20 +168,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "package control re",
+		"height": 104.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"package control re",
 				"Package Control: Remove Package"
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -160,7 +201,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 446.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -188,11 +229,14 @@
 	"expanded_folders":
 	[
 		"/E/Work/Sites/shuteye/shuteye",
+		"/E/Work/Sites/shuteye/shuteye/imports",
+		"/E/Work/Sites/shuteye/shuteye/imports/ui",
 		"/E/Work/Sites/shuteye/shuteye/resources",
 		"/E/Work/Sites/shuteye/shuteye/resources/common"
 	],
 	"file_history":
 	[
+		"/E/Work/Sites/shuteye/shuteye/imports/ui/Task.jsx",
 		"/E/Work/Sites/shuteye/shuteye/resources/common/en.i18n.json",
 		"/E/Work/Sites/shuteye/shuteye/imports/ui/LanguageStrings.jsx",
 		"/E/Work/Sites/shuteye/shuteye/.meteor/local/dev_bundle/lib/node_modules/yargs/locales/en.json",
@@ -241,7 +285,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -255,6 +299,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav-link",
 			"backgroundcolor",
 			"bgnegativecolor"
 		],
@@ -264,6 +309,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"classname"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -274,7 +320,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -283,15 +329,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1193,
+						"buffer_size": 1305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								642,
-								666
+								325,
+								325
 							]
 						],
 						"settings":
@@ -299,7 +345,7 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 49.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -307,6 +353,36 @@
 				},
 				{
 					"buffer": 1,
+					"file": "shuteye/imports/ui/LanguageDrop.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 41.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "shuteye/imports/ui/App.jsx",
 					"semi_transient": false,
 					"settings":
@@ -336,20 +412,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "shuteye/client/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2593,
+						"buffer_size": 3091,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2239,
-								2239
+								630,
+								630
 							]
 						],
 						"settings":
@@ -359,14 +435,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2769.0,
+						"translation.y": 262.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "shuteye/client/main.html",
 					"semi_transient": false,
 					"settings":
@@ -387,10 +463,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -484,7 +560,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":

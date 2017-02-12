@@ -7,16 +7,21 @@ export default class LanguageDrop extends Component {
   
 	renderFlags() {
 		let flags = [
-			{code:"pt-PT", name:i18n.__("common.navbar.pt-PT")},
-			{code:"en-US", name:i18n.__("common.navbar.en-US")}, 
-			{code:"es-ES", name:i18n.__("common.navbar.es-ES")}
+			{code:"pt-PT", name: i18n.__("common.navbar.pt-PT"), class:"flag pt-PT"},
+			{code:"en-US", name: i18n.__("common.navbar.en-US"), class:"flag en-US"}, 
+			{code:"es-ES", name: i18n.__("common.navbar.es-ES"), class:"flag es-ES"}
 		];
+
+		let localeString = i18n.getLocale();
+
+		flags = flags.filter((x)=>{return x.code != localeString});
 
 		return(
 			flags.map((data) =>
+				
 				(
 				<li id={data.code} title={data.name}>
-					<img className="flag"/>
+					<img className={data.class}/>
 				</li>
 				)
 				)
@@ -25,11 +30,15 @@ export default class LanguageDrop extends Component {
 
 	renderCurrentFlag(){
 		let localeString = i18n.getLocale();
-		let currentFlag = {code:localeString, name:i18n.__("common.navbar."+localeString)};
+		let currentFlag = {
+			code:localeString,
+			name:i18n.__("common.navbar."+localeString),
+			class:"flag "+localeString
+		};
 
 		return(
-			<button className="btn dropdown-toggle" id="language-drop" selected={currentFlag.code} type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				{currentFlag.name}
+			<button className="btn dropdown-toggle" id="language-drop" title={currentFlag.name} selected={currentFlag.code} type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				<img className={currentFlag.class} />
 			</button>
 			);
 	}
@@ -41,7 +50,7 @@ export default class LanguageDrop extends Component {
 	    	<div className='dropdown'>
 	    	{this.renderCurrentFlag()}
 	    		<ul className="dropdown-menu" aria-labelledby="language-drop">
-	    			{this.renderFlags}
+	    			{this.renderFlags()}
 	    		</ul>
 	    	</div>
 	    );
