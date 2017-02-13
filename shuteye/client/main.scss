@@ -32,7 +32,7 @@ h1{
     background: $bgnegativecolor;
 }
 .navbar{
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     font:$headerfontbase;
 
@@ -169,12 +169,13 @@ header .hide-completed {
         color:$headerColor;
         text-decoration: underline;
         font-size: 40px;
-
+        text-transform: uppercase;
     }
 }
 
 #indexPage{
-    background-color:$bgnegativecolor;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cb/5f/f7/cb5ff75a581458a881fbceb6bcf9fff3.jpg);
+    background-position: 463px 0px;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -202,7 +203,7 @@ header .hide-completed {
     border-radius: 7px;
     font-size: 22px;
     font-weight: 600;
-    padding: 5px 10px;
+    padding: 5px 15px;
 
 }
 

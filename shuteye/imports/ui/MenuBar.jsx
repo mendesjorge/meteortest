@@ -8,7 +8,7 @@ export default class MenuBar extends Component {
 	
   	render() {
 	  	const T = i18n.createComponent();
-	  	i18n.setLocale(getLang());
+	  	
 	    return (
 	    	<nav className="navbar">
 				<div className="container">
