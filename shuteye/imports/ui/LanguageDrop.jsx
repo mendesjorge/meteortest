@@ -5,6 +5,10 @@ import i18n from 'meteor/universe:i18n';
 
 export default class LanguageDrop extends Component {
   
+	languageSelect(el){
+		i18n.setLocale(el);
+	}
+
 	renderFlags() {
 		let flags = [
 			{code:"pt-PT", name: i18n.__("common.navbar.pt-PT"), class:"flag pt-PT"},
@@ -20,8 +24,10 @@ export default class LanguageDrop extends Component {
 			flags.map((data) =>
 				
 				(
-				<li id={data.code} title={data.name}>
-					<img className={data.class}/>
+				<li title={data.name}>
+					<a href='#' onClick={() => this.languageSelect(data.code)}>
+						<img className={data.class}/>
+					</a>
 				</li>
 				)
 				)

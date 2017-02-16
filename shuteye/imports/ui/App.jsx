@@ -7,10 +7,15 @@ import MenuBar from './MenuBar';
 
 // App component - represents the whole app
 export default class App extends Component {
+    constructor(props) {
+        super(props);
 
+        i18n.setLocale(getLang());
+
+        i18n.onChangeLocale(()=>{this.forceUpdate();});
+    }
     render() {
         const T = i18n.createComponent();
-        i18n.setLocale(getLang());
         return (
             <div className="container">
                 <MenuBar/>

@@ -1,0 +1,17 @@
+{
+"_locale": "en-US",
+"_namespace": "common",
+	"navbar": {
+	  "shuteye": "Shuteye",
+	  "HowItWorks": "How it works?",
+	  "WhyShuteye": "Why shuteye?",
+	  "HowIStart": "How I start using?",
+	  "WhatIsNew": "What is new?"
+	},
+	"howitworks": {
+		"TheSleepingUber": "The Sleeping Uber",
+		"NapNearWork": "Make a nap near your working place",
+		"MonetizeYourHome": "Monetize your home",
+		"PickPlaceToNap": "Pick the place to nap"
+	}
+}

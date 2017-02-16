@@ -1,0 +1,17 @@
+{
+"_locale": "pt-PT",
+"_namespace": "common",
+	"navbar": {
+	  "shuteye": "Shuteye",
+	  "HowItWorks": "Como funciona?",
+	  "WhyShuteye": "Porquê shuteye?",
+	  "HowIStart": "Como começo?",
+	  "WhatIsNew": "Quais as novidades?"
+	},
+	"howitworks": {
+		"TheSleepingUber": "A uber do sono",
+		"NapNearWork": "Dorme a sesta perto do teu local de trabalho",
+		"MonetizeYourHome": "Rentabiliza a tua casa",
+		"PickPlaceToNap": "Escolhe o local para a tua sesta"
+	}
+}
