@@ -8,10 +8,19 @@
 	  "HowIStart": "How I start using?",
 	  "WhatIsNew": "What is new?"
 	},
-	"howitworks": {
+	"lobby": {
 		"TheSleepingUber": "The Sleeping Uber",
 		"NapNearWork": "Make a nap near your working place",
 		"MonetizeYourHome": "Monetize your home",
 		"PickPlaceToNap": "Pick the place to nap"
+	},
+	"howitworks": {
+		"Proprietary": "Proprietary",
+		"Client": "Client",
+		"MonetizeYourHomeSteps": "Monetize your home in only four steps",
+		"RegistryAndFillProfile": "Registry and fill your profile",
+		"CreateProfileNapHouse": "Create a profile for your nap house",
+		"PickAvailablePeriods": "Pick available periods",
+		"RateGuestNap": "Rate guest nap"
 	}
 }

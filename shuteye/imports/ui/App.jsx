@@ -19,15 +19,25 @@ export default class App extends Component {
         return (
             <div className="container">
                 <MenuBar/>
-                <MainFrame id="index" title={i18n.__("common.howitworks.TheSleepingUber")}>
+                <MainFrame id="index" title={i18n.__("common.lobby.TheSleepingUber")}>
                     <span className="statement">
-                        <T>common.howitworks.NapNearWork</T>
+                        <T>common.lobby.NapNearWork</T>
                     </span>
                     <div className="orange-border">
-                        <T>common.howitworks.MonetizeYourHome</T>
+                        <T>common.lobby.MonetizeYourHome</T>
                     </div>
                     <div className="orange-border">
-                        <T>common.howitworks.PickPlaceToNap</T>
+                        <T>common.lobby.PickPlaceToNap</T>
+                    </div>
+                </MainFrame>
+                <MainFrame id="how" title={i18n.__("common.navbar.HowItWorks")}>
+                    <div className="horiz-center">
+                        <div className="full-color base-color">
+                            <T>common.howitworks.Proprietary</T>
+                        </div>
+                        <div className="full-color negative-color">
+                            <T>common.howitworks.Client</T>
+                        </div>
                     </div>
                 </MainFrame>
             </div>

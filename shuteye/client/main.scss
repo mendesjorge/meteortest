@@ -1,6 +1,7 @@
 $bgcolor: orange;
 $headerColor: orange;
 $bgnegativecolor: white;
+$negativecolor: lightgrey;
 $headerfontbase: 'sans-serif' 14px;
 
 body {
@@ -43,6 +44,10 @@ h1{
     background-color: $bgcolor;
     max-width: 100%;
     /*max-width: 600px;*/
+    .navbar-collapse{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 a.nav-link{
@@ -160,30 +165,34 @@ header .hide-completed {
 .page{
     height: 100vh;
 
-    #indexPage{
+    > div{
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
+        align-items: center;
+    }
+
+    #indexPage {
+        background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cb/5f/f7/cb5ff75a581458a881fbceb6bcf9fff3.jpg);
+        background-position: 463px 0px;
     }
     h1{
         color:$headerColor;
         text-decoration: underline;
         font-size: 40px;
         text-transform: uppercase;
+        padding: 30px 0;
+        margin:0;
     }
-}
 
-#indexPage{
-    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cb/5f/f7/cb5ff75a581458a881fbceb6bcf9fff3.jpg);
-    background-position: 463px 0px;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-#index{
-    margin: 30px 0;
+    .horiz-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        width: 50%;
+    }
 }
 
 .statement{
@@ -198,14 +207,25 @@ header .hide-completed {
     margin-bottom: 40px;
 }
 
-.orange-border{
+.orange-border, .full-color{
     background-color: $bgnegativecolor;
     border:solid 2px $bgcolor;
     border-radius: 7px;
     font-size: 22px;
     font-weight: 600;
     padding: 5px 15px;
+}
 
+.full-color{
+    &.base-color{
+        background-color:$bgcolor;
+        color:$bgnegativecolor;
+    }
+
+    &.negative-color{
+        background-color:$negativecolor;
+        border-color: $negativecolor;
+    }
 }
 
 .dropdown{
