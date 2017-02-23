@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"act",
+				"activeItems"
+			],
+			[
+				"in",
+				"info-item"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"prop",
+				"proprietary"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
 				"back",
 				"background-clip"
 			],
@@ -24,10 +68,6 @@
 				"className"
 			],
 			[
-				"flex",
-				"flex-grow"
-			],
-			[
 				"marg",
 				"margin-top"
 			],
@@ -42,10 +82,6 @@
 			[
 				"anima",
 				"animation-direction"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"f",
@@ -145,7 +181,16 @@
 			"file": "shuteye/imports/ui/App.jsx",
 			"settings":
 			{
-				"buffer_size": 1153,
+				"buffer_size": 2665,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shuteye/resources/common/en.i18n.json",
+			"settings":
+			{
+				"buffer_size": 783,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -163,7 +208,7 @@
 			"file": "shuteye/client/main.scss",
 			"settings":
 			{
-				"buffer_size": 3267,
+				"buffer_size": 4251,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -172,7 +217,7 @@
 			"file": "shuteye.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 14575,
+				"buffer_size": 14823,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -263,9 +308,9 @@
 	],
 	"file_history":
 	[
+		"/E/Work/Sites/shuteye/shuteye/resources/common/pt.i18n.json",
 		"/E/Work/Sites/shuteye/shuteye/resources/common/es.i18n.json",
 		"/E/Work/Sites/shuteye/shuteye/resources/common/en.i18n.json",
-		"/E/Work/Sites/shuteye/shuteye/resources/common/pt.i18n.json",
 		"/E/Work/Sites/shuteye/shuteye/client/styles/flags.scss",
 		"/E/Work/Sites/shuteye/shuteye/client/main.scss",
 		"/C/Users/TwiN/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
@@ -319,7 +364,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -359,7 +404,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -387,7 +432,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -403,8 +448,8 @@
 						"selection":
 						[
 							[
-								224,
-								224
+								249,
+								249
 							]
 						],
 						"settings":
@@ -417,7 +462,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -426,15 +471,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1153,
+						"buffer_size": 2665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								326
+								660,
+								660
 							]
 						],
 						"settings":
@@ -444,14 +489,43 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "shuteye/resources/common/en.i18n.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "shuteye/imports/ui/MainFrame.jsx",
 					"semi_transient": false,
 					"settings":
@@ -480,20 +554,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "shuteye/client/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3267,
+						"buffer_size": 4251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								598,
-								598
+								3992,
+								3992
 							]
 						],
 						"settings":
@@ -503,19 +577,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3996.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "shuteye.sublime-workspace",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14575,
+						"buffer_size": 14823,
 						"regions":
 						{
 						},
@@ -532,14 +606,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11656.0,
+						"translation.y": 11700.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "shuteye/client/main.html",
 					"semi_transient": false,
 					"settings":
@@ -563,7 +637,7 @@
 						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -657,7 +731,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":

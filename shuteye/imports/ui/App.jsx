@@ -14,6 +14,25 @@ export default class App extends Component {
 
         i18n.onChangeLocale(()=>{this.forceUpdate();});
     }
+
+    userTypeClick(e){
+        var name = e.currentTarget.id;
+
+        var activeItems = document.querySelector(".info-item.active");
+        // if(activeItems)
+        // {
+            activeItems.classList.remove("active");
+        //}
+        document.querySelector("."+name).classList.add("active");
+        
+        var activeBtn = document.querySelector(".active.full-color");
+        if(activeBtn)
+        {
+            activeBtn.classList.remove("active");
+        }
+        e.currentTarget.classList.add("active");
+    }
+
     render() {
         const T = i18n.createComponent();
         return (
@@ -32,13 +51,22 @@ export default class App extends Component {
                 </MainFrame>
                 <MainFrame id="how" title={i18n.__("common.navbar.HowItWorks")}>
                     <div className="horiz-center">
-                        <div className="full-color base-color">
+                        <a id="proprietary" className="full-color base-color" onClick={this.userTypeClick}>
                             <T>common.howitworks.Proprietary</T>
-                        </div>
-                        <div className="full-color negative-color">
+                        </a>
+                        <a id="client" className="full-color negative-color" onClick={this.userTypeClick}>
                             <T>common.howitworks.Client</T>
-                        </div>
+                        </a>
                     </div>
+
+                    <div className="info-box inactive">
+                        <span className="info-item active inactive-text">
+                            <T>common.howitworks.SelectPropOrClient</T>
+                        </span>
+                        <div className="info-item proprietary">proprietary</div>
+                        <div className="info-item client">client</div>
+                    </div>
+
                 </MainFrame>
             </div>
             );

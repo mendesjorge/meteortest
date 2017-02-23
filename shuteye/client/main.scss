@@ -4,6 +4,16 @@ $bgnegativecolor: white;
 $negativecolor: lightgrey;
 $headerfontbase: 'sans-serif' 14px;
 
+a{
+    user-select: none;
+    cursor: pointer;
+    &:hover,&:focus{
+        text-decoration:none !important;
+        opacity: 0.8;
+
+    }
+}
+
 body {
     font-family: sans-serif;
     background-color: $bgcolor;
@@ -217,14 +227,36 @@ header .hide-completed {
 }
 
 .full-color{
-    &.base-color{
+    background-color:$negativecolor;
+    border-color: $negativecolor;
+    min-width: 140px;
+    display: flex;
+    align-content: center;
+
+    &.active{
         background-color:$bgcolor;
         color:$bgnegativecolor;
+        border-color: $bgcolor;
     }
 
-    &.negative-color{
-        background-color:$negativecolor;
-        border-color: $negativecolor;
+    span{
+        margin: auto;
+    }
+}
+
+.info-box{
+    margin: 40px 0 0 0;
+    border:1px $bgcolor solid;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    .info-item{
+        display: none;
+        margin: auto;
+
+        &.active{
+            display: flex;
+        }
     }
 }
 
