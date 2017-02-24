@@ -10,7 +10,7 @@ export default class MenuBar extends Component {
 	  	const T = i18n.createComponent();
 	  	
 	    return (
-	    	<nav className="navbar">
+	    	<nav className="navbar navbar-fixed-top">
 				<div className="container">
 					<div className="nav-header">
 						<a className="navbar-brand" href="#index">

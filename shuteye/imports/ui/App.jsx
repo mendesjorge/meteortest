@@ -38,36 +38,38 @@ export default class App extends Component {
         return (
             <div className="container">
                 <MenuBar/>
-                <MainFrame id="index" title={i18n.__("common.lobby.TheSleepingUber")}>
-                    <span className="statement">
-                        <T>common.lobby.NapNearWork</T>
-                    </span>
-                    <div className="orange-border">
-                        <T>common.lobby.MonetizeYourHome</T>
-                    </div>
-                    <div className="orange-border">
-                        <T>common.lobby.PickPlaceToNap</T>
-                    </div>
-                </MainFrame>
-                <MainFrame id="how" title={i18n.__("common.navbar.HowItWorks")}>
-                    <div className="horiz-center">
-                        <a id="proprietary" className="full-color base-color" onClick={this.userTypeClick}>
-                            <T>common.howitworks.Proprietary</T>
-                        </a>
-                        <a id="client" className="full-color negative-color" onClick={this.userTypeClick}>
-                            <T>common.howitworks.Client</T>
-                        </a>
-                    </div>
-
-                    <div className="info-box inactive">
-                        <span className="info-item active inactive-text">
-                            <T>common.howitworks.SelectPropOrClient</T>
+                <div className="frame-container">
+                    <MainFrame id="index" title={i18n.__("common.lobby.TheSleepingUber")}>
+                        <span className="statement">
+                            <T>common.lobby.NapNearWork</T>
                         </span>
-                        <div className="info-item proprietary">proprietary</div>
-                        <div className="info-item client">client</div>
-                    </div>
+                        <div className="orange-border">
+                            <T>common.lobby.MonetizeYourHome</T>
+                        </div>
+                        <div className="orange-border">
+                            <T>common.lobby.PickPlaceToNap</T>
+                        </div>
+                    </MainFrame>
+                    <MainFrame id="how" title={i18n.__("common.navbar.HowItWorks")}>
+                        <div className="horiz-center">
+                            <a id="proprietary" className="full-color base-color" onClick={this.userTypeClick}>
+                                <T>common.howitworks.Proprietary</T>
+                            </a>
+                            <a id="client" className="full-color negative-color" onClick={this.userTypeClick}>
+                                <T>common.howitworks.Client</T>
+                            </a>
+                        </div>
 
-                </MainFrame>
+                        <div className="info-box inactive">
+                            <span className="info-item active inactive-text">
+                                <T>common.howitworks.SelectPropOrClient</T>
+                            </span>
+                            <div className="info-item proprietary">proprietary</div>
+                            <div className="info-item client">client</div>
+                        </div>
+
+                    </MainFrame>
+                </div>
             </div>
             );
     }

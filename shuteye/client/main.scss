@@ -47,6 +47,29 @@ h1{
     width: 100%;
     font:$headerfontbase;
 
+    li {
+    position: relative;
+    list-style: none;
+    padding: 15px;
+    border-bottom: #eee solid 1px;
+    }
+
+    li .text {
+        margin-left: 10px;
+    }
+
+    li.checked {
+        color: #888;
+    }
+
+    li.checked .text {
+        text-decoration: line-through;
+    }
+
+    li.private {
+        background: #eee;
+        border-color: #ddd;
+    }
 }
 .navbar .container{
     display: flex;
@@ -57,6 +80,24 @@ h1{
     .navbar-collapse{
         margin-right: auto;
         margin-left: auto;
+    }
+}
+
+.frame-container{
+    padding-top: 100px;
+}
+
+#language-drop{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.dropdown-menu{
+    min-width: 20px;
+
+    li{
+        padding:0;
+        margin: 0;
     }
 }
 
@@ -126,29 +167,7 @@ ul {
     position: relative;
 }
 
-li {
-    position: relative;
-    list-style: none;
-    padding: 15px;
-    border-bottom: #eee solid 1px;
-}
 
-li .text {
-    margin-left: 10px;
-}
-
-li.checked {
-    color: #888;
-}
-
-li.checked .text {
-    text-decoration: line-through;
-}
-
-li.private {
-    background: #eee;
-    border-color: #ddd;
-}
 
 header .hide-completed {
     float: right;
@@ -192,8 +211,8 @@ header .hide-completed {
         text-decoration: underline;
         font-size: 40px;
         text-transform: uppercase;
-        padding: 30px 0;
-        margin:0;
+        padding: 130px 0 30px 0;
+        margin:-100px 0 0 0;
     }
 
     .horiz-center{
