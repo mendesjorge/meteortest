@@ -36,6 +36,10 @@ h1{
     margin: 0;
 }
 
+.display-flex{
+    display: flex;
+}
+
 .container {
     /*max-width: 600px;  to remove when all html are in components */
     /*margin: 0 auto;*/
@@ -268,7 +272,7 @@ header .hide-completed {
     margin: 40px 0 0 0;
     border:1px $bgcolor solid;
     display: flex;
-    width: 100%;
+    padding: 0 20px;
     height: 50%;
     .info-item{
         display: none;
@@ -280,10 +284,23 @@ header .hide-completed {
         &.active{
             display: flex;
         }
+    }
 
-        ul{
-            flex-direction: column;
+    .info-disc-img{
+        width: 300px;
+        height: 200px;
+    }
+    .list-group-item{
+        border:none;
+
+        span{
+            vertical-align: middle;
         }
+    }
+
+    .glyphicon{
+        font-size: 20px;
+        padding: 5px 10px;
     }
 }
 

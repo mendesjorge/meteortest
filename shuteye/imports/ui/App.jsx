@@ -41,29 +41,58 @@ export default class App extends Component {
                                 <span className="statement">
                                     <T>common.howitworks.MonetizeYourHomeSteps</T>
                                 </span>
-                                <div>
-                                    <ul>
-                                        <li>
+                                <div className="display-flex">
+                                    <div className="list-group">
+                                        <div className="list-group-item">
                                             <span className="glyphicon glyphicon-user"></span>
                                             <T>common.howitworks.RegistryAndFillProfile</T>
-                                        </li>
-                                        <li>
+                                        </div>
+                                        <div className="list-group-item">
                                             <span className="glyphicon glyphicon-home"></span>
                                             <T>common.howitworks.CreateProfileNapHouse</T>
-                                        </li>
-                                        <li>
+                                        </div>
+                                        <div className="list-group-item">
                                             <span className="glyphicon glyphicon-calendar"></span>
                                             <T>common.howitworks.PickAvailablePeriods</T>
-                                        </li>
-                                        <li>
+                                        </div>
+                                        <div className="list-group-item">
                                             <span className="glyphicon glyphicon-ok"></span>
                                             <T>common.howitworks.RateGuestNap</T>
-                                        </li>
-                                    </ul>
-                                    <div></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img className="info-disc-img" src="http://3.bp.blogspot.com/-_zdsiqKKU9M/TjgrixWAPyI/AAAAAAAAATM/7xQaaFZCOMQ/s1600/Beautiful-birds-nests-photo-pictures-wallpapers-images-3.jpg"/>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="info-item proprietary">proprietary</div>
+                            <div className="info-item proprietary">
+                                <span className="statement">
+                                    <T>common.howitworks.MonetizeYourHomeSteps</T>
+                                </span>
+                                <div className="display-flex">
+                                    <div>
+                                        <img className="info-disc-img" src="http://3.bp.blogspot.com/-_zdsiqKKU9M/TjgrixWAPyI/AAAAAAAAATM/7xQaaFZCOMQ/s1600/Beautiful-birds-nests-photo-pictures-wallpapers-images-3.jpg"/>
+                                    </div>
+                                    <div className="list-group">
+                                        <div className="list-group-item">
+                                            <span className="glyphicon glyphicon-user"></span>
+                                            <T>common.howitworks.RegistryAndFillProfile</T>
+                                        </div>
+                                        <div className="list-group-item">
+                                            <span className="glyphicon glyphicon-home"></span>
+                                            <T>common.howitworks.CreateProfileNapHouse</T>
+                                        </div>
+                                        <div className="list-group-item">
+                                            <span className="glyphicon glyphicon-calendar"></span>
+                                            <T>common.howitworks.PickAvailablePeriods</T>
+                                        </div>
+                                        <div className="list-group-item">
+                                            <span className="glyphicon glyphicon-ok"></span>
+                                            <T>common.howitworks.RateGuestNap</T>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </MainFrame>
