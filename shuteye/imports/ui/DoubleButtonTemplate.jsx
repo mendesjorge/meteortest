@@ -8,15 +8,36 @@ export default class DoubleButtonTemplate extends Component {
     userTypeClick(e){
         var name = e.currentTarget.id;
 
-        var activeItems = document.querySelector(".info-item.active");
+        var activeItems = document.querySelectorAll(".info-item.active");
 
-        activeItems.classList.remove("active");
-        document.querySelector("."+name).classList.add("active");
+        activeItems.forEach((elem)=>
+        {
+            elem.classList.remove("active");
+        });
 
-        var activeBtn = document.querySelector(".active.full-color");
+        document.querySelectorAll("."+name).forEach(elem =>
+        {
+            elem.classList.add("active");
+        });
+        
+
+        var activeBtn = document.querySelectorAll(".full-color");
         if(activeBtn)
         {
-            activeBtn.classList.remove("active");
+            activeBtn.forEach(elem =>
+            {
+                if(name == elem.id)
+                {
+                    if(!elem.classList.contains("active"))
+                    {
+                        elem.classList.add("active");
+                    }
+                }
+                else
+                {
+                    elem.classList.remove("active"); 
+                }
+            });
         }
         e.currentTarget.classList.add("active");
     }
