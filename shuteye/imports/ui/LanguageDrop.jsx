@@ -53,9 +53,9 @@ export default class LanguageDrop extends Component {
 	  	const T = i18n.createComponent();
 	  	
 	    return (
-	    	<div className='dropdown'>
+	    	<div className='dropdown language-flags'>
 	    	{this.renderCurrentFlag()}
-	    		<ul className="dropdown-menu" aria-labelledby="language-drop">
+	    		<ul className="dropdown-menu dropdown-menu-right" aria-labelledby="language-drop">
 	    			{this.renderFlags()}
 	    		</ul>
 	    	</div>

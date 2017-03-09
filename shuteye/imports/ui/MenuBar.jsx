@@ -11,7 +11,7 @@ export default class MenuBar extends Component {
 	  	
 	    return (
 	    	<nav className="navbar navbar-fixed-top">
-				<div className="container">
+				<div className="pn-container">
 					<div className="nav-header">
 						<a className="navbar-brand" href="#index">
 							<T>common.navbar.shuteye</T>

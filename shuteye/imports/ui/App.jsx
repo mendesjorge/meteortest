@@ -19,7 +19,7 @@ export default class App extends Component {
     render() {
         const T = i18n.createComponent();
         return (
-            <div className="container">
+            <div>
                 <MenuBar/>
                 <div className="frame-container">
                     <MainFrame id="index" title={i18n.__("common.lobby.TheSleepingUber")}>

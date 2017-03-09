@@ -17,7 +17,7 @@ a{
 body {
     font-family: sans-serif;
     background-color: $bgcolor;
-    background-image: linear-gradient(to bottom, $bgcolor, #918e82 100%);
+    /*background-image: linear-gradient(to bottom, $bgcolor, #918e82 100%);*/
     background-attachment: fixed;
 
     position: absolute;
@@ -36,11 +36,15 @@ h1{
     margin: 0;
 }
 
+.list-group-item{
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .display-flex{
     display: flex;
 }
 
-.container {
+.pn-container {
     /*max-width: 600px;  to remove when all html are in components */
     /*margin: 0 auto;*/
     min-height: 100%;
@@ -75,7 +79,7 @@ h1{
         border-color: #ddd;
     }
 }
-.navbar .container{
+.navbar .pn-container{
     display: flex;
     flex-direction: column;
     background-color: $bgcolor;
@@ -89,13 +93,29 @@ h1{
 
 .frame-container{
     padding-top: 100px;
-}
 
+    .page:nth-child(even){
+        background-color:rgba(255, 255, 255, 0.7);
+    }
+    .page:nth-child(odd){
+        background-color:rgba(255, 255, 255, 1);
+    }
+
+
+}
 #language-drop{
     padding: 0px;
     margin: 0px;
     border: none;
 }
+
+.language-flags{
+    
+    .dropdown-menu > li{
+        min-width: 0;
+    }
+}
+
 .dropdown-menu{
     min-width: 20px;
 
