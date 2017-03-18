@@ -1,5 +1,5 @@
-$bgcolor: orange;
-$headerColor: orange;
+$bgcolor: rgb(55,189,160);
+$headerColor: rgb(55,189,160);
 $bgnegativecolor: white;
 $negativecolor: lightgrey;
 $headerfontbase: 'sans-serif' 14px;
@@ -50,16 +50,35 @@ h1{
     min-height: 100%;
     background: $bgnegativecolor;
 }
+/*REVIEW PLACE AND CSS*/
+.logo div{
+    background: url(images/shuteye.png) no-repeat;
+    background-size: 115px;
+    background-position: -21px -21px;
+    width: 84px;
+    height: 87px;
+}
+
 .navbar{
     /*position: fixed;*/
     width: 100%;
     font:$headerfontbase;
 
+    /* REVIEW PLACE */
+    .nav-item{
+        font-size: 19px;
+
+        &.active{
+            background-color: $bgnegativecolor;
+            color: $negativecolor;
+        }
+    }
+
     li {
-    position: relative;
-    list-style: none;
-    padding: 15px;
-    border-bottom: #eee solid 1px;
+        position: relative;
+        list-style: none;
+        padding: 15px 30px;
+        /*border-bottom: #eee solid 1px;*/
     }
 
     li .text {
@@ -84,6 +103,7 @@ h1{
     flex-direction: column;
     background-color: $bgcolor;
     max-width: 100%;
+    color: $negativecolor;
     /*max-width: 600px;*/
     .navbar-collapse{
         margin-right: auto;
@@ -178,7 +198,7 @@ form {
 ul {
     margin: 0;
     padding: 0;
-    background: white;
+    /*background: white;*/
     display:flex;
     flex-direction: row;
 }
