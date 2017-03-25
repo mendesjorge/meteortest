@@ -14,7 +14,7 @@ a{
     }
 }
 
-body {
+body#body {
     font-family: sans-serif;
     background-color: $bgcolor;
     /*background-image: linear-gradient(to bottom, $bgcolor, #918e82 100%);*/
@@ -63,6 +63,8 @@ h1{
     /*position: fixed;*/
     width: 100%;
     font:$headerfontbase;
+
+
 
     /* REVIEW PLACE */
     .nav-item{
@@ -136,7 +138,7 @@ h1{
     }
 }
 
-.dropdown-menu{
+.dropdown .dropdown-menu{
     min-width: 20px;
 
     li{
