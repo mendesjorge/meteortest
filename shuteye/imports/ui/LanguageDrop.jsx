@@ -13,7 +13,7 @@ export default class LanguageDrop extends Component {
 		let flags = [
 			{code:"pt-PT", name: i18n.__("common.navbar.pt-PT"), class:"flag pt-PT"},
 			{code:"en-US", name: i18n.__("common.navbar.en-US"), class:"flag en-US"}, 
-			{code:"es-ES", name: i18n.__("common.navbar.es-ES"), class:"flag es-ES"}
+			// {code:"es-ES", name: i18n.__("common.navbar.es-ES"), class:"flag es-ES"}
 		];
 
 		let localeString = i18n.getLocale();

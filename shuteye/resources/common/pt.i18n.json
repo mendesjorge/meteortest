@@ -21,6 +21,42 @@
 		"RegistryAndFillProfile": "Registry and fill your profile",
 		"CreateProfileNapHouse": "Create a profile for your nap house",
 		"PickAvailablePeriods": "Pick available periods",
-		"RateGuestNap": "Rate guest nap"
+		"RateGuestNap": "Rate guest nap",
+		"EnjoyYourNapSteps":"Disfruta a tua sesta única em 4 passos:",
+		"SearchAvailableNapHouse":"Procura as casas de sestas disponiveis mais proximas de ti",
+		"ReserveSeveralOrOnce":"Reserva para o momento ou para depois, uma vez ou varias vezes",
+		"RateNapHouse":"Avalia a casa de sestas e seu proprietario"
+	},
+	"whyshuteye":{
+		"EasiestAndMonetizeHouse":"E a forma mais simples e rentavel de rentabilizar a tua casa",
+		"Simple":"Simples",
+		"Safe":"Seguro",
+		"Profitable":"Rentavel",
+		"Near":"Proximo",
+		"Comfortable":"Confortavel",
+		"Pleasant":"Agradavel",
+		"Cheap":"Barato",
+		"SimpleOwnerDescription":"Comeca hoje sem quaisquer taxas(mensais ou anuais) e nos disponibilizamos lencoes e pijamas novos",
+		"SafeOwnerDescription":"Usufrui logo de seguranca no pagamento e no usa da sua casa de sestas sem qualquer risco de dano ou furto",
+		"ProfitOwnerDescription":"Obtem ja um rendimento extra por casa sesta superior ao que obterias se arrendasses",
+		"SimpleClientDescription":"",
+		"NearClientDescription":"",
+		"ComfortableClientDescription":"",
+		"PleasantClientDescription":"",
+		"CheapClientDescription":""
+	},
+	"howistart":{
+		"ProprietaryDescription":"",
+		"ClientDescription":"",
+		"Simulate":"",
+		"Registry":"",
+		"RegistYou":"",
+		"Search":"",
+		"Start":"",
+		"SimulateDescription":"",
+		"RegistryDescription":"",
+		"StartDescription":"",
+		"RegistYouDescription":"",
+		"SearchDescription":"",
 	}
 }
