@@ -4,6 +4,11 @@ $bgnegativecolor: white;
 $negativecolor: lightgrey;
 $headerfontbase: 'sans-serif' 14px;
 
+@mixin bg($color, $opacity: 1) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
 a{
     user-select: none;
     cursor: pointer;
@@ -71,7 +76,7 @@ h1{
         &.active{
             
             &:nth-child(odd){
-                background-color: $headerColor;
+                @include bg($bgnegativecolor,0.7);
             }
             &:nth-child(even){
                 background-color: $bgnegativecolor;
@@ -125,10 +130,11 @@ h1{
     padding-top: 100px;
 
     .page:nth-child(even){
-        background-color:rgba(255, 255, 255, 0.7);
+        /*background-color:rgba(255, 255, 255, 0.7);*/
+        @include bg($bgnegativecolor,0.7);
     }
     .page:nth-child(odd){
-        background-color:rgba(255, 255, 255, 1);
+        background-color:$bgnegativecolor;
     }
 
 
