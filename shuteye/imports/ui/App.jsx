@@ -35,7 +35,7 @@ export default class App extends Component {
                     </MainFrame>
                     
                     <MainFrame id="how" title={i18n.__("common.navbar.HowItWorks")}>
-                        <DoubleButtonTemplate/>
+                        {/* <DoubleButtonTemplate/> */}
 
                         <div className="info-box inactive">
                             <div className="info-item client active">
@@ -98,7 +98,7 @@ export default class App extends Component {
                     </MainFrame>
                     
                     <MainFrame id="why" title={i18n.__("common.navbar.WhyShuteye")}>
-                        <DoubleButtonTemplate/>
+                        {/* <!-- <DoubleButtonTemplate/> */}
 
                         <div className="info-box inactive">
                             <div className="info-item client active">

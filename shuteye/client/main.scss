@@ -72,6 +72,7 @@ h1{
     /* REVIEW PLACE */
     .nav-item{
         font-size: 19px;
+        border-radius:7px 7px 0 0; 
 
         &.active{
             
@@ -325,10 +326,10 @@ header .hide-completed {
 }
 
 .info-box{
-    margin: 40px 0 0 0;
-    border:1px $bgcolor solid;
+    /*margin: 40px 0 0 0;*/
+    /*border:1px $bgcolor solid;*/
     display: flex;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     height: 50%;
     .info-item{
         display: none;
@@ -340,6 +341,10 @@ header .hide-completed {
         &.active{
             display: flex;
         }
+
+        .statement{
+            margin-bottom: 20px;
+        }
     }
 
     .info-disc-img{
@@ -348,7 +353,7 @@ header .hide-completed {
     }
     .list-group-item{
         border:none;
-
+        font-size:25px;
         span{
             vertical-align: middle;
         }
