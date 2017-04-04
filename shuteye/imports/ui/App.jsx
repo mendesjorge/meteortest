@@ -103,29 +103,43 @@ export default class App extends Component {
                         <div className="info-box inactive">
                             <div className="info-item client active">
                                 <span className="statement">
-                                    <T>common.howitworks.MonetizeYourHomeSteps</T>
+                                    <T>common.whyshuteye.StayWithYourHealthyHabits</T>
                                 </span>
-                                <div className="display-flex">
-                                    <div className="list-group">
-                                        <div className="list-group-item">
-                                            <span className="glyphicon glyphicon-user"></span>
-                                            <T>common.howitworks.RegistryAndFillProfile</T>
+                                <div className="info-pane">
+                                    <div>
+                                        <div>
+                                            <span className="glyphicon glyphicon-time"></span>
+                                            <T>common.whyshuteye.Simple</T>
                                         </div>
-                                        <div className="list-group-item">
-                                            <span className="glyphicon glyphicon-home"></span>
-                                            <T>common.howitworks.CreateProfileNapHouse</T>
-                                        </div>
-                                        <div className="list-group-item">
-                                            <span className="glyphicon glyphicon-calendar"></span>
-                                            <T>common.howitworks.PickAvailablePeriods</T>
-                                        </div>
-                                        <div className="list-group-item">
-                                            <span className="glyphicon glyphicon-ok"></span>
-                                            <T>common.howitworks.RateGuestNap</T>
-                                        </div>
+                                        <T>common.whyshuteye.SimpleClientDescription</T>
                                     </div>
                                     <div>
-                                        <img className="info-disc-img" src="http://3.bp.blogspot.com/-_zdsiqKKU9M/TjgrixWAPyI/AAAAAAAAATM/7xQaaFZCOMQ/s1600/Beautiful-birds-nests-photo-pictures-wallpapers-images-3.jpg"/>
+                                        <div>
+                                            <span className="glyphicon glyphicon-map-marker"></span>
+                                            <T>common.whyshuteye.Near</T>
+                                        </div>
+                                        <T>common.whyshuteye.NearClientDescription</T>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <span className="glyphicon glyphicon-bed"></span>
+                                            <T>common.whyshuteye.Comfortable</T>
+                                        </div>
+                                        <T>common.whyshuteye.ComfortableClientDescription</T>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <span className="glyphicon glyphicon-thumbs-up"></span>
+                                            <T>common.whyshuteye.Pleasant</T>
+                                        </div>
+                                        <T>common.whyshuteye.PleasantClientDescription</T>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <span className="glyphicon glyphicon-eur"></span>
+                                            <T>common.whyshuteye.Cheap</T>
+                                        </div>
+                                        <T>common.whyshuteye.CheapClientDescription</T>
                                     </div>
                                 </div>
                             </div>
