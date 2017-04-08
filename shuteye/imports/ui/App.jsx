@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import i18n from 'meteor/universe:i18n';
 import DoubleButtonTemplate from './DoubleButtonTemplate';
+import i18n from 'meteor/universe:i18n';
+import ImageGallery from 'react-image-gallery';
 import MainFrame from './MainFrame';
 import MenuBar from './MenuBar';
 // import Task from './Task.jsx';
@@ -18,11 +19,38 @@ export default class App extends Component {
 
     render() {
         const T = i18n.createComponent();
+
+        const indexImages = [
+            {
+                original:"images/gallery/photo1.jpg",
+                thumbnail:"images/gallery/photo1.jpg",
+                originalClass:"slide-image"
+            },
+            {
+                original:"images/gallery/photo2.jpg",
+                thumbnail:"images/gallery/photo2.jpg",
+                originalClass:"slide-image"
+            },
+            {
+                original:"images/gallery/photo3.jpg",
+                thumbnail:"images/gallery/photo3.jpg",
+                originalClass:"slide-image"
+            },
+            {
+                original:"images/gallery/photo4.jpg",
+                thumbnail:"images/gallery/photo4.jpg",
+                originalClass:"slide-image"
+            }
+        ];
+
         return (
             <div>
                 <MenuBar/>
                 <div className="frame-container">
                     <MainFrame id="index" title={i18n.__("common.lobby.TheSleepingUber")}>
+                        <div className="SlideFrame">
+                            <ImageGallery items={indexImages} slideInterval={10000} autoPlay={true} showNav={false} showThumbnails={false} showPlayButton={false} showFullscreenButton={false}/>
+                        </div>
                         <span className="statement">
                             <T>common.lobby.NapNearWork</T>
                         </span>

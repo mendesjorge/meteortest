@@ -9,6 +9,8 @@ $headerfontbase: 'sans-serif' 14px;
     background: rgba($color, $opacity);
 }
 
+@import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+
 a{
     user-select: none;
     cursor: pointer;
@@ -129,17 +131,8 @@ h1{
 
 .frame-container{
     padding-top: 100px;
-
-    .page:nth-child(even){
-        /*background-color:rgba(255, 255, 255, 0.7);*/
-        @include bg($bgnegativecolor,0.7);
-    }
-    .page:nth-child(odd){
-        background-color:$bgnegativecolor;
-    }
-
-
 }
+
 #language-drop{
     padding: 0px;
     margin: 0px;
@@ -256,17 +249,30 @@ header .hide-completed {
 .page{
     height: 100vh;
 
+    &:first-child{
+        background:none !important;
+    }
     > div{
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
         align-items: center;
+
+    }
+
+    &:nth-child(2n+2){
+        /*background-color:rgba(255, 255, 255, 0.7);*/
+        @include bg($bgnegativecolor,0.7);
+    }
+    &:nth-child(2n+1){
+        background-color:$bgnegativecolor;
     }
 
     #indexPage {
-        background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cb/5f/f7/cb5ff75a581458a881fbceb6bcf9fff3.jpg);
+        /*background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cb/5f/f7/cb5ff75a581458a881fbceb6bcf9fff3.jpg);*/
         background-position: 463px 0px;
+        background: none;
     }
     h1{
         color:$headerColor;
@@ -382,4 +388,11 @@ header .hide-completed {
         width: 17%;
         word-wrap: break-word;
     }
+}
+
+.SlideFrame{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    z-index: -1;
 }
