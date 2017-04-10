@@ -5,6 +5,7 @@ import i18n from 'meteor/universe:i18n';
 import ImageGallery from 'react-image-gallery';
 import MainFrame from './MainFrame';
 import MenuBar from './MenuBar';
+import ReactPlayer from 'react-player';
 // import Task from './Task.jsx';
 
 // App component - represents the whole app
@@ -90,7 +91,7 @@ export default class App extends Component {
                                         </div>
                                     </div>
                                     <div>
-                                        <img className="info-disc-img" src="http://3.bp.blogspot.com/-_zdsiqKKU9M/TjgrixWAPyI/AAAAAAAAATM/7xQaaFZCOMQ/s1600/Beautiful-birds-nests-photo-pictures-wallpapers-images-3.jpg"/>
+                                        <ReactPlayer url="/videos/Shuteye.mp4" controls/>
                                     </div>
                                 </div>
                             </div>
