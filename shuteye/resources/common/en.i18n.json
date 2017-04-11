@@ -4,23 +4,59 @@
 	"navbar": {
 	  "shuteye": "Shuteye",
 	  "HowItWorks": "How it works?",
-	  "WhyShuteye": "Why shuteye?",
-	  "HowIStart": "How I start using?",
+	  "WhyShuteye": "Why Shuteye?",
+	  "HowIStart": "How to start?",
 	  "WhatIsNew": "What is new?"
 	},
 	"lobby": {
-		"TheSleepingUber": "The Sleeping Uber",
-		"NapNearWork": "Make a nap near your working place",
-		"MonetizeYourHome": "Monetize your home",
-		"PickPlaceToNap": "Pick the place to nap"
+		"TheSleepingUber": "Endless day, red-eye flight, meeting delayed...? It's time to Shuteye!",
+		"NapNearWork": "Book a space close to you for how long you want on the go",
+		"MonetizeYourHome": "Monetize your home", 
+		"PickPlaceToNap": "Check out our spaces here"
 	},
 	"howitworks": {
-		"Proprietary": "Proprietary",
-		"Client": "Client",
-		"MonetizeYourHomeSteps": "Monetize your home in only four steps:",
-		"RegistryAndFillProfile": "Registry and fill your profile",
-		"CreateProfileNapHouse": "Create a profile for your nap house",
+		 "Proprietary": "Proprietário",
+		"Client": "Cliente",
+		"MonetizeYourHomeSteps": "Monetize your home in only four steps:", 
+		"RegistryAndFillProfile": "Sign up on our website",
+		 "CreateProfileNapHouse": "Create a profile for your nap house",
 		"PickAvailablePeriods": "Pick available periods",
-		"RateGuestNap": "Rate guest nap"
+		"RateGuestNap": "Rate guest nap", 
+		"EnjoyYourNapSteps":"Shuteye in only 4 steps:",
+		"SearchAvailableNapHouse":"Choose the space",
+		"ReserveSeveralOrOnce":"Book for the moment or for later",
+		"RateNapHouse":"Give us your feedback"
+	},
+	"whyshuteye":{
+		 "EasiestAndMonetizeHouse":"E a forma mais simples e rentavel de rentabilizar a tua casa", 
+		"Simple":"Simples",
+		"Safe":"Seguro",
+		"Profitable":"Rentavel",
+		"Near":"Próximo",
+		"Comfortable":"Confortável",
+		 "Pleasant":"Agradavel", 
+		"Cheap":"Barato",
+		 "SimpleOwnerDescription":" ",
+		"SafeOwnerDescription":" ",
+		"ProfitOwnerDescription":" ", 
+		"SimpleClientDescription":"Easy to book at last minute in only 3 clicks",
+		"NearClientDescription":"Spaces close to you or to your office",
+		"ComfortableClientDescription":"Bookings from 30 minutes in high quality spaces",
+		"PleasantClientDescription":" ",
+		"CheapClientDescription":"All this... from 4€ per hour"
+	},
+	"howistart":{
+		"ProprietaryDescription":" ",
+		"ClientDescription":"Shuteye never was so easy and cheap:",
+		"Simulate":" ",
+		"Registry":" ",
+		"RegistYou":"Sign up",
+		"Search":"Search",
+		"Start":"Start",
+		"SimulateDescription":" ",
+		"RegistryDescription":" ",
+		"StartDescription":"Book the space you most like for the duration you want (from 30 minutes) and enjoy the experience.",
+		"RegistYouDescription":"Fill out your data and preferences. We suggest you the spaces that match your criteria and are most convenient to you.",
+		"SearchDescription":"Look for the ideal space (within our suggestions or without), check out photos of the space and feedback from previous guests."
 	}
 }
