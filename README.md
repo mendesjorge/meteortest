@@ -7,3 +7,4 @@ Dependency libraries, meteor linked:
 Dependency libraries:
 
  - https://github.com/xiaolin/react-image-gallery
+ - https://github.com/CookPete/react-player
