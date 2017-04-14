@@ -55,12 +55,6 @@ export default class App extends Component {
                         <span className="statement">
                             <T>common.lobby.NapNearWork</T>
                         </span>
-                        <div className="orange-border">
-                            <T>common.lobby.MonetizeYourHome</T>
-                        </div>
-                        <div className="orange-border">
-                            <T>common.lobby.PickPlaceToNap</T>
-                        </div>
                     </MainFrame>
                     
                     <MainFrame id="how" title={i18n.__("common.navbar.HowItWorks")}>
