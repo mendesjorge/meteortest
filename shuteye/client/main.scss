@@ -300,6 +300,11 @@ header .hide-completed {
     margin:0 0 60px 0;
 }
 
+.big-statement{
+    font-weight: 700;
+    font-style: 30px;
+}
+
 #indexPage .orange-border{
     margin-bottom: 40px;
 }
@@ -337,6 +342,7 @@ header .hide-completed {
     display: flex;
     width: 100%;
     height: 50%;
+
     .info-item{
         display: none;
         margin: auto;
@@ -361,6 +367,7 @@ header .hide-completed {
     .list-group-item{
         border:none;
         font-size:25px;
+        padding-bottom: 30px;
         span{
             vertical-align: middle;
         }
@@ -379,7 +386,7 @@ header .hide-completed {
 
 .info-pane{
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     justify-content: space-between;
 
     &> div{
@@ -395,4 +402,29 @@ header .hide-completed {
     overflow: hidden;
     height: 100%;
     z-index: -1;
+}
+
+.howstart-row{
+    display:flex;
+    align-items: center;
+    width: 1000px;
+
+    &> div{
+        display: flex;
+        font-size:20px;
+    }
+
+    &> div:first-child{
+        margin-right: 20px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .glyphicon{
+        font-size:30px;
+    }
+}
+
+.why-item{
+    font-size:20px;
 }

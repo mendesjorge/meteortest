@@ -63,7 +63,7 @@ export default class App extends Component {
                         <div className="info-box inactive">
                             <div className="info-item client active">
                                 <span className="statement">
-                                    <T>common.howitworks.MonetizeYourHomeSteps</T>
+                                    <T>common.howitworks.EnjoyYourNapSteps</T>
                                 </span>
                                 <div className="display-flex">
                                     <div className="list-group">
@@ -73,15 +73,15 @@ export default class App extends Component {
                                         </div>
                                         <div className="list-group-item">
                                             <span className="glyphicon glyphicon-home"></span>
-                                            <T>common.howitworks.CreateProfileNapHouse</T>
+                                            <T>common.howitworks.SearchAvailableNapHouse</T>
                                         </div>
                                         <div className="list-group-item">
                                             <span className="glyphicon glyphicon-calendar"></span>
-                                            <T>common.howitworks.PickAvailablePeriods</T>
+                                            <T>common.howitworks.ReserveSeveralOrOnce</T>
                                         </div>
                                         <div className="list-group-item">
                                             <span className="glyphicon glyphicon-ok"></span>
-                                            <T>common.howitworks.RateGuestNap</T>
+                                            <T>common.howitworks.RateNapHouse</T>
                                         </div>
                                     </div>
                                     <div>
@@ -125,39 +125,29 @@ export default class App extends Component {
 
                         <div className="info-box inactive">
                             <div className="info-item client active">
-                                <span className="statement">
-                                    <T>common.whyshuteye.StayWithYourHealthyHabits</T>
-                                </span>
                                 <div className="info-pane">
-                                    <div>
+                                    <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-time"></span>
                                             <T>common.whyshuteye.Simple</T>
                                         </div>
                                         <T>common.whyshuteye.SimpleClientDescription</T>
                                     </div>
-                                    <div>
+                                    <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-map-marker"></span>
                                             <T>common.whyshuteye.Near</T>
                                         </div>
                                         <T>common.whyshuteye.NearClientDescription</T>
                                     </div>
-                                    <div>
+                                    <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-bed"></span>
                                             <T>common.whyshuteye.Comfortable</T>
                                         </div>
                                         <T>common.whyshuteye.ComfortableClientDescription</T>
                                     </div>
-                                    <div>
-                                        <div>
-                                            <span className="glyphicon glyphicon-thumbs-up"></span>
-                                            <T>common.whyshuteye.Pleasant</T>
-                                        </div>
-                                        <T>common.whyshuteye.PleasantClientDescription</T>
-                                    </div>
-                                    <div>
+                                    <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-eur"></span>
                                             <T>common.whyshuteye.Cheap</T>
@@ -202,11 +192,11 @@ export default class App extends Component {
 
                         <div className="info-box inactive">
                             <div className="info-item client active">
-                                <span className="statement">
+                                <span className="statement big-statement">
                                     <T>common.howistart.ClientDescription</T>
                                 </span>
                                 <div className="list-group">
-                                    <div className="list-group-item">
+                                    {/*<div className="list-group-item">
                                         <div className="display-flex">
                                             <div>
                                                 <span className="glyphicon glyphicon-time"></span>
@@ -216,9 +206,9 @@ export default class App extends Component {
                                                 <T>common.howistart.RegistryDescription</T>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>*/}
                                     <div className="list-group-item">
-                                        <div className="display-flex">
+                                        <div className="howstart-row">
                                             <div>
                                                 <span className="glyphicon glyphicon-time"></span>
                                                 <T>common.howistart.Search</T>
@@ -229,7 +219,7 @@ export default class App extends Component {
                                         </div>
                                     </div>
                                     <div className="list-group-item">
-                                        <div className="display-flex">
+                                        <div className="howstart-row">
                                             <div>
                                                 <span className="glyphicon glyphicon-time"></span>
                                                 <T>common.howistart.Start</T>
@@ -271,6 +261,19 @@ export default class App extends Component {
                             </div>
                         </div>
                     </MainFrame>
+                    {/*<MainFrame id="" title={i18n._("common.navbar.WhatIsNew")}>
+                        <div className="row">
+                            <div className="col-xs-9 news-pane">
+
+                            </div>
+                            <div className="col-xs-3">
+                                <div className="social">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </MainFrame>*/}
                 </div>
             </div>
             );
