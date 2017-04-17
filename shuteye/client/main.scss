@@ -41,6 +41,8 @@ body#body {
 
 h1{
     margin: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .list-group .list-group-item{
@@ -402,6 +404,8 @@ header .hide-completed {
     overflow: hidden;
     height: 100%;
     z-index: -1;
+    top:0px;
+    left: 0px;
 }
 
 .howstart-row{
