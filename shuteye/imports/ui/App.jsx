@@ -52,8 +52,9 @@ export default class App extends Component {
                         <div className="SlideFrame">
                             <ImageGallery items={indexImages} slideInterval={10000} autoPlay={true} showNav={false} showThumbnails={false} showPlayButton={false} showFullscreenButton={false}/>
                         </div>
+                        <T _tagType="h2">common.lobby.TheSleepingUber2</T>
                         <span className="statement">
-                            <T>common.lobby.NapNearWork</T>
+                            {i18n.__("common.lobby.NapNearWork")}
                         </span>
                     </MainFrame>
                     

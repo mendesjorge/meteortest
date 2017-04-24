@@ -9,7 +9,8 @@
 	  "WhatIsNew": "Quais as novidades?"
 	},
 	"lobby": {
-		"TheSleepingUber": "Dia cansativo, voo noturno, reunião atrasada...? É tempo de Shuteye!",
+		"TheSleepingUber": "Dia cansativo, voo noturno, reunião atrasada...?",
+		"TheSleepingUber2": "É tempo de Shuteye!",
 		"NapNearWork": "Reserva um espaço próximo de ti pela duração que quiseres instantaneamente",
 		"MonetizeYourHome": "Rentabiliza a tua casa", 
 		"PickPlaceToNap": "Consulta aqui os nossos espaços"

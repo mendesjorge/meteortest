@@ -9,6 +9,18 @@ $headerfontbase: 'sans-serif' 14px;
     background: rgba($color, $opacity);
 }
 
+@mixin text-stroke($color){
+    text-shadow:0 0 2px $color;
+    /*text-shadow: -1px -1px 0px $color,
+         0px -1px 0px $color,
+         1px -1px 0px $color,
+        -1px  0px 0px $color,
+         1px  0px 0px $color,
+        -1px  1px 0px $color,
+         0px  1px 0px $color,
+         1px  1px 0px $color;
+*/}
+
 @import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 
 a{
@@ -275,12 +287,24 @@ header .hide-completed {
         /*background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cb/5f/f7/cb5ff75a581458a881fbceb6bcf9fff3.jpg);*/
         background-position: 463px 0px;
         background: none;
+
+        .page-title{
+            padding-top: 45%;
+        }
+        h1,h2{
+            @include text-stroke(black);
+        }
+
     }
-    h1{
+    h1, h2{
         color:$headerColor;
         text-decoration: underline;
         font-size: 40px;
         text-transform: uppercase;
+        margin:0;
+    }
+
+    .page-title{
         padding: 130px 0 30px 0;
         margin:-100px 0 0 0;
     }
@@ -299,7 +323,8 @@ header .hide-completed {
 }
 
 #indexPage .statement{
-    margin:0 0 60px 0;
+    margin:40px 0 60px 0;
+    @include text-stroke(white);
 }
 
 .big-statement{

@@ -9,7 +9,8 @@
 	  "WhatIsNew": "What is new?"
 	},
 	"lobby": {
-		"TheSleepingUber": "Endless day, red-eye flight, meeting delayed...? It's time to Shuteye!",
+		"TheSleepingUber": "Endless day, red-eye flight, meeting delayed...?",
+		"TheSleepingUber2":"It's time to Shuteye!",
 		"NapNearWork": "Book a space close to you for how long you want on the go",
 		"MonetizeYourHome": "Monetize your home", 
 		"PickPlaceToNap": "Check out our spaces here"

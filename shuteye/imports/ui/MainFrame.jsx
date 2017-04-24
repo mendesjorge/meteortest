@@ -9,7 +9,7 @@ export default class MainFrame extends Component {
     return (
       <div className="page">
 		<div id={this.props.id+"Page"}>
-  			<h1 id={this.props.id}> {this.props.title} </h1>
+  			<h1 className="page-title" id={this.props.id}> {this.props.title} </h1>
 				{this.props.children}
   		</div>
 	</div>
