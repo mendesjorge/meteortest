@@ -130,30 +130,33 @@ export default class App extends Component {
                                     <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-time"></span>
-                                            <T>common.whyshuteye.Simple</T>
+                                            <T _props={{className:'bullet'}}>common.whyshuteye.Simple</T>
                                         </div>
-                                        <T>common.whyshuteye.SimpleClientDescription</T>
+                                        <T _props={{className:'description'}}>common.whyshuteye.SimpleClientDescription</T>
                                     </div>
                                     <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-map-marker"></span>
-                                            <T>common.whyshuteye.Near</T>
+                                            <T _props={{className:'bullet'}}>common.whyshuteye.Near</T>
                                         </div>
-                                        <T>common.whyshuteye.NearClientDescription</T>
+                                        <T _props={{className:'description'}}>common.whyshuteye.NearClientDescription</T>
                                     </div>
+                                </div>
+                                <div className="info-pane">
+
                                     <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-bed"></span>
-                                            <T>common.whyshuteye.Comfortable</T>
+                                            <T _props={{className:'bullet'}}>common.whyshuteye.Comfortable</T>
                                         </div>
-                                        <T>common.whyshuteye.ComfortableClientDescription</T>
+                                        <T _props={{className:'description'}}>common.whyshuteye.ComfortableClientDescription</T>
                                     </div>
                                     <div className="why-item">
                                         <div>
                                             <span className="glyphicon glyphicon-eur"></span>
-                                            <T>common.whyshuteye.Cheap</T>
+                                            <T _props={{className:'bullet'}}>common.whyshuteye.Cheap</T>
                                         </div>
-                                        <T>common.whyshuteye.CheapClientDescription</T>
+                                        <T _props={{className:'description'}}>common.whyshuteye.CheapClientDescription</T>
                                     </div>
                                 </div>
                             </div>

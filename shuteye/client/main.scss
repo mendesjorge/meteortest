@@ -454,6 +454,21 @@ header .hide-completed {
     }
 }
 
-.why-item{
-    font-size:20px;
+#whyPage .info-pane{
+    width: 65%;
 }
+
+.info-pane > div.why-item{
+    font-size:20px;
+    padding:40px 20px;
+    width:50%;
+
+    span.bullet{
+        font-weight: 700;
+    }
+
+    span.description{
+        padding-left: 20px;
+    }
+}
+
