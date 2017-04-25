@@ -200,21 +200,21 @@ export default class App extends Component {
                                     <T>common.howistart.ClientDescription</T>
                                 </span>
                                 <div className="list-group">
-                                    {/*<div className="list-group-item">
-                                        <div className="display-flex">
-                                            <div>
-                                                <span className="glyphicon glyphicon-time"></span>
-                                                <T>common.howistart.Registry</T>
-                                            </div>
-                                            <div>
-                                                <T>common.howistart.RegistryDescription</T>
-                                            </div>
-                                        </div>
-                                    </div>*/}
                                     <div className="list-group-item">
                                         <div className="howstart-row">
                                             <div>
-                                                <span className="glyphicon glyphicon-time"></span>
+                                                <span className="glyphicon glyphicon-edit"></span>
+                                                <T>common.howistart.RegistYou</T>
+                                            </div>
+                                            <div>
+                                                <T>common.howistart.RegistYouDescription</T>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="list-group-item">
+                                        <div className="howstart-row">
+                                            <div>
+                                                <span className="glyphicon glyphicon-search"></span>
                                                 <T>common.howistart.Search</T>
                                             </div>
                                             <div>
@@ -225,7 +225,7 @@ export default class App extends Component {
                                     <div className="list-group-item">
                                         <div className="howstart-row">
                                             <div>
-                                                <span className="glyphicon glyphicon-time"></span>
+                                                <span className="glyphicon glyphicon-play-circle"></span>
                                                 <T>common.howistart.Start</T>
                                             </div>
                                             <div>

@@ -329,7 +329,9 @@ header .hide-completed {
 
 #indexPage .statement{
     margin:40px 0 60px 0;
+    font-size: 35px;
     @include text-stroke(white);
+    text-align:center;
 }
 
 .big-statement{
@@ -471,9 +473,13 @@ header .hide-completed {
     width:50%;
 
     span.bullet{
+        font-size: 30px;
         font-weight: 700;
     }
 
+    .glyphicon{
+        font-size: 30px;
+    }
     span.description{
         padding-left: 20px;
     }

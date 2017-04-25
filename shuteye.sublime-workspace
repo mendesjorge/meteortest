@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
 				"padd",
-				"padding-left"
+				"padding-top"
 			],
 			[
 				"text",
@@ -54,10 +58,6 @@
 			[
 				"whys",
 				"whyshuteye"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"bordr",
@@ -219,7 +219,16 @@
 			"file": "shuteye/client/main.scss",
 			"settings":
 			{
-				"buffer_size": 7959,
+				"buffer_size": 8166,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shuteye/imports/ui/LanguageDrop.jsx",
+			"settings":
+			{
+				"buffer_size": 1560,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -402,6 +411,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"flag",
 			"gl",
 			"ext-stroke",
 			"h2",
@@ -454,15 +464,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7959,
+						"buffer_size": 8166,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7892,
-								7892
+								8158,
+								8158
 							]
 						],
 						"settings":
@@ -472,7 +482,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8027.0,
+						"translation.y": 8531.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -480,6 +490,35 @@
 				},
 				{
 					"buffer": 1,
+					"file": "shuteye/imports/ui/LanguageDrop.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "shuteye/imports/ui/MainFrame.jsx",
 					"semi_transient": false,
 					"settings":
@@ -505,11 +544,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "shuteye/imports/ui/App.jsx",
 					"semi_transient": false,
 					"settings":
@@ -521,8 +560,8 @@
 						"selection":
 						[
 							[
-								8661,
-								8661
+								7004,
+								7004
 							]
 						],
 						"settings":
@@ -531,8 +570,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 70.0,
-						"translation.y": 2285.0,
+						"translation.x": 190.0,
+						"translation.y": 2123.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
