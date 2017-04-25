@@ -6,7 +6,9 @@
 	  "HowItWorks": "Como funciona?",
 	  "WhyShuteye": "Porquê Shuteye?",
 	  "HowIStart": "Como começo?",
-	  "WhatIsNew": "Quais as novidades?"
+	  "WhatIsNew": "Quais as novidades?",
+	  "pt-PT":"Português",
+	  "en-US":"Inglês"
 	},
 	"lobby": {
 		"TheSleepingUber": "Dia cansativo, voo noturno, reunião atrasada...?",
@@ -37,7 +39,7 @@
 		"Comfortable":"Confortável",
 		 "Pleasant":"Agradavel", 
 		"Cheap":"Barato",
-		 "SimpleOwnerDescription":"Comeca hoje sem quaisquer taxas(mensais ou anuais) e nos disponibilizamos lencoes e pijamas novos",
+		 "SimpleOwnerDescription":"Começa hoje sem quaisquer taxas(mensais ou anuais) e nos disponibilizamos lençoes e pijamas novos",
 		"SafeOwnerDescription":"Usufrui logo de seguranca no pagamento e no usa da sua casa de sestas sem qualquer risco de dano ou furto",
 		"ProfitOwnerDescription":"Obtem ja um rendimento extra por casa sesta superior ao que obterias se arrendasses", 
 		"SimpleClientDescription":"Fácil de marcar à última da hora em apenas 3 cliques",

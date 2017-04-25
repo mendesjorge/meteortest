@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
 import i18n from 'meteor/universe:i18n';
-//import LanguageStrings from './LanguageStrings';
 
 export default class LanguageDrop extends Component {
   

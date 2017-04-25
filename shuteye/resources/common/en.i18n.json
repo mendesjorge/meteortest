@@ -6,7 +6,9 @@
 	  "HowItWorks": "How it works?",
 	  "WhyShuteye": "Why Shuteye?",
 	  "HowIStart": "How to start?",
-	  "WhatIsNew": "What is new?"
+	  "WhatIsNew": "What is new?",
+	  "pt-PT":"Portuguese",
+	  "en-US":"English"
 	},
 	"lobby": {
 		"TheSleepingUber": "Endless day, red-eye flight, meeting delayed...?",
@@ -16,7 +18,7 @@
 		"PickPlaceToNap": "Check out our spaces here"
 	},
 	"howitworks": {
-		 "Proprietary": "Proprietário",
+		"Proprietary": "Proprietário",
 		"Client": "Cliente",
 		"MonetizeYourHomeSteps": "Monetize your home in only four steps:", 
 		"RegistryAndFillProfile": "Sign up on our website",
@@ -29,15 +31,15 @@
 		"RateNapHouse":"Give us your feedback"
 	},
 	"whyshuteye":{
-		 "EasiestAndMonetizeHouse":"E a forma mais simples e rentavel de rentabilizar a tua casa", 
-		"Simple":"Simples",
-		"Safe":"Seguro",
-		"Profitable":"Rentavel",
-		"Near":"Próximo",
-		"Comfortable":"Confortável",
-		 "Pleasant":"Agradavel", 
-		"Cheap":"Barato",
-		 "SimpleOwnerDescription":" ",
+		"EasiestAndMonetizeHouse":"E a forma mais simples e rentavel de rentabilizar a tua casa", 
+		"Simple":"Simple",
+		"Safe":"Safe",
+		"Profitable":"Profitable",
+		"Near":"Near",
+		"Comfortable":"Comfortable",
+		"Pleasant":"Pleasant", 
+		"Cheap":"Cheap",
+		"SimpleOwnerDescription":" ",
 		"SafeOwnerDescription":" ",
 		"ProfitOwnerDescription":" ", 
 		"SimpleClientDescription":"Easy to book at last minute in only 3 clicks",
