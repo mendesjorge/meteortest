@@ -7,30 +7,57 @@ import ReactDOM from 'react-dom';
 export default class EmailSubmissionForm extends Component{
 
 	handleSubmit(event){
+		const T = i18n.createComponent();
+		
 		event.preventDefault();
 
 		const elem = ReactDOM.findDOMNode(this.refs.emailInput);
 		const email = elem.value.trim();
-debugger;
-		clients.insert({_id:email, data:email, createDate:new Date()});
-		elem.value = '';
+
+		const time = new Date();
+
+		clients.insert(
+			{
+				_id:email,
+				data:email,
+				createDate:time.toISOString(),
+				createDateToken:time.getTime()
+			},
+			(err, result) => {
+
+				if(!err){
+					debugger;
+					// const fieldset = ReactDOM.findDOMNode(this.refs.emailFieldset);
+					// fieldset.setAttribute("disabled","disabled");
+					ReactDOM.render(
+						(
+							<T>Successfully sent</T>
+						),
+						document.getElementById("subscription")
+					);
+				}
+			}
+			);
+		//elem.value = '';
 	}
 
 	render(){
 		const T = i18n.createComponent();
 
 		return (
-				<form className="email-form" onSubmit={this.handleSubmit.bind(this)}>
-					<div>
-						<T>label</T>
-						<input 
-							type="email"
-							ref="emailInput"
-							placeholder="example@domain.com"
-						/>
-						<input type='submit'/>
-					</div>
-				</form>
+				<div id="subscription">
+					<form className="email-form" onSubmit={this.handleSubmit.bind(this)}>
+						<fieldset ref="emailFieldset">
+							<T>label</T>
+							<input 
+								type="email"
+								ref="emailInput"
+								placeholder="example@domain.com"
+							/>
+							<input type='submit'/>
+						</fieldset>
+					</form>
+				</div>
 			)
 	}
 }
