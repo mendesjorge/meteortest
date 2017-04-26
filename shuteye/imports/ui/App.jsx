@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import DoubleButtonTemplate from './DoubleButtonTemplate';
+import EmailSubmissionForm from './EmailSubmissionForm';
 import i18n from 'meteor/universe:i18n';
 import ImageGallery from 'react-image-gallery';
 import MainFrame from './MainFrame';
@@ -265,7 +266,7 @@ export default class App extends Component {
                             </div>
                         </div>
                     </MainFrame>
-                    {/*<MainFrame id="" title={i18n._("common.navbar.WhatIsNew")}>
+                    <MainFrame id="what" title={i18n.__("common.navbar.WhatIsNew")}>
                         <div className="row">
                             <div className="col-xs-9 news-pane">
 
@@ -274,10 +275,10 @@ export default class App extends Component {
                                 <div className="social">
 
                                 </div>
+                                <EmailSubmissionForm/>
                             </div>
                         </div>
-
-                    </MainFrame>*/}
+                    </MainFrame>
                 </div>
             </div>
             );

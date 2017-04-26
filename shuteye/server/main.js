@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 
-import '../imports/api/tasks.js';
+import { Clients } from '../imports/api/clients.js';
 
 var connectHandler = WebApp.connectHandlers;
 
