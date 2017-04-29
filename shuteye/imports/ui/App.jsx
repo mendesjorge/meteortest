@@ -273,7 +273,12 @@ export default class App extends Component {
                             </div>
                             <div className="col-xs-3">
                                 <div className="social">
-
+                                    <T>JOIN US ON:</T>
+                                    <div className="display-flex">
+                                        <a className="btn fb-btn btn-default" href="https://www.facebook.com/shuteye.pt" role="button" target="_blank">
+                                            <span className="socicon-facebook"></span>
+                                        </a>
+                                    </div>
                                 </div>
                                 <EmailSubmissionForm/>
                             </div>
