@@ -61,5 +61,10 @@
 		"StartDescription":"Reserva o espaço que mais gostas com a duração pretendida (desde 30 minutos) e disfruta da experiência.",
 		"RegistYouDescription":"Introduz os teus dados e preferências. Sugerimos-te os espaços com os teus requisitos e mais convenientes para ti.",
 		"SearchDescription":"Procura o espaço ideal (dentro das nossas sugestões ou fora), vê fotografias do interior e comentários de hóspedes anteriores."
+	},
+	"whatisnew":{
+		"submitBtn":"Submeter",
+		"getNews":"receber novidades",
+		"joinUsOn":"Segue-nos em:"
 	}
 }

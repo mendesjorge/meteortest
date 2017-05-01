@@ -61,5 +61,10 @@
 		"StartDescription":"Book the space you most like for the duration you want (from 30 minutes) and enjoy the experience.",
 		"RegistYouDescription":"Fill out your data and preferences. We suggest you the spaces that match your criteria and are most convenient to you.",
 		"SearchDescription":"Look for the ideal space (within our suggestions or without), check out photos of the space and feedback from previous guests."
+	},
+	"whatisnew":{
+		"submitBtn":"Submit",
+		"getNews":"get news",
+		"joinUsOn":"Join us on:"
 	}
 }

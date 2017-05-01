@@ -6,8 +6,8 @@ import i18n from 'meteor/universe:i18n';
 import ImageGallery from 'react-image-gallery';
 import MainFrame from './MainFrame';
 import MenuBar from './MenuBar';
+import NewsRichTemplate from './NewsRichTemplate';
 import ReactPlayer from 'react-player';
-// import Task from './Task.jsx';
 
 // App component - represents the whole app
 export default class App extends Component {
@@ -268,19 +268,23 @@ export default class App extends Component {
                     </MainFrame>
                     <MainFrame id="what" title={i18n.__("common.navbar.WhatIsNew")}>
                         <div className="row">
-                            <div className="col-xs-9 news-pane">
-
+                            <div className="col-xs-9">
+                                <NewsRichTemplate
+                                    img="https://www.dinheirovivo.pt/wp-content/uploads/2015/11/7125716_GI30112012Sarahcosta000009-740x415.jpg"
+                                    title="Acredita Portugal. Escolhidas as ..."
+                                    discription="São 21 projetos divididos em sete categorias. Os vencedores ..."
+                                    url="https://www.dinheirovivo.pt/fazedores/acredita-portugal-escolhidas-as-startups-finalistas-do-concurso-do-montepio/"></NewsRichTemplate>
                             </div>
                             <div className="col-xs-3">
+                                <EmailSubmissionForm/>
                                 <div className="social">
-                                    <T>JOIN US ON:</T>
+                                    <T _props={{className:'title'}}>common.whatisnew.joinUsOn</T>
                                     <div className="display-flex">
                                         <a className="btn fb-btn btn-default" href="https://www.facebook.com/shuteye.pt" role="button" target="_blank">
                                             <span className="socicon-facebook"></span>
                                         </a>
                                     </div>
                                 </div>
-                                <EmailSubmissionForm/>
                             </div>
                         </div>
                     </MainFrame>

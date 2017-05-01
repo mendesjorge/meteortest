@@ -26,7 +26,6 @@ export default class EmailSubmissionForm extends Component{
 			(err, result) => {
 
 				if(!err){
-					debugger;
 					// const fieldset = ReactDOM.findDOMNode(this.refs.emailFieldset);
 					// fieldset.setAttribute("disabled","disabled");
 					ReactDOM.render(
@@ -48,13 +47,17 @@ export default class EmailSubmissionForm extends Component{
 				<div id="subscription">
 					<form className="email-form" onSubmit={this.handleSubmit.bind(this)}>
 						<fieldset ref="emailFieldset">
-							<T>label</T>
-							<input 
-								type="email"
-								ref="emailInput"
-								placeholder="example@domain.com"
-							/>
-							<input type='submit'/>
+							<T _props={{className:'title'}}>common.whatisnew.getNews</T>
+							<div className="display-flex input-group">
+								<input className="form-control"
+									type="email"
+									ref="emailInput"
+									placeholder="example@email.com"
+								/>
+								<span className="input-group-btn">
+									<button className="btn" type='submit'>{i18n.__("common.whatisnew.submitBtn")}</button>
+								</span>
+							</div>
 						</fieldset>
 					</form>
 				</div>

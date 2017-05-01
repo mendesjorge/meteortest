@@ -8,3 +8,7 @@ Dependency libraries:
 
  - https://github.com/xiaolin/react-image-gallery
  - https://github.com/CookPete/react-player
+
+Resources:
+ 
+ - http://www.socicon.com/
