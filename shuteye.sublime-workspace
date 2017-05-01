@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"cla",
+				"className\tstr "
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -18,10 +38,6 @@
 			[
 				"mar",
 				"margin-top"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"text",
@@ -227,7 +243,7 @@
 			"file": "shuteye/client/main.scss",
 			"settings":
 			{
-				"buffer_size": 8930,
+				"buffer_size": 9749,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -236,7 +252,7 @@
 			"file": "shuteye/imports/ui/EmailSubmissionForm.jsx",
 			"settings":
 			{
-				"buffer_size": 1328,
+				"buffer_size": 1573,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -245,16 +261,16 @@
 			"file": "shuteye/imports/ui/App.jsx",
 			"settings":
 			{
-				"buffer_size": 17567,
+				"buffer_size": 17615,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "shuteye/imports/ui/NewsRichTemplate.jsx",
+			"file": "shuteye/resources/system/en.i18n.json",
 			"settings":
 			{
-				"buffer_size": 1219,
+				"buffer_size": 95,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -267,10 +283,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 272.0,
-		"last_filter": "material theme",
+		"height": 354.0,
+		"last_filter": "colo",
 		"selected_items":
 		[
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"material theme",
 				"Material Theme: Activate theme"
@@ -286,10 +310,6 @@
 			[
 				"package control re",
 				"Package Control: Remove Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"sublinter",
@@ -308,7 +328,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 398.0
+		"width": 382.0
 	},
 	"console":
 	{
@@ -336,25 +356,29 @@
 	"expanded_folders":
 	[
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/api",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/system",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/server"
 	],
 	"file_history":
 	[
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client/main.html",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/NewsRichTemplate.jsx",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/system/pt.i18n.json",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/system/en.i18n.json",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common/en.i18n.json",
+		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common/pt.i18n.json",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/api/clients.js",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/EmailSubmissionForm.jsx",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/README.md",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/package.json",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/MainFrame.jsx",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/client/main.html",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/LanguageDrop.jsx",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/server/main.js",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/api/tasks.js",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common/en.i18n.json",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common/pt.i18n.json",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui/MenuBar.jsx",
 		"/C/Users/Luiz/Downloads/pt.i18n(1).json",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common/es.i18n.json",
@@ -490,15 +514,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8930,
+						"buffer_size": 9749,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8694,
-								8694
+								692,
+								692
 							]
 						],
 						"settings":
@@ -508,7 +532,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8784.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -520,15 +544,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1328,
+						"buffer_size": 1573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1236,
-								1236
+								1133,
+								1133
 							]
 						],
 						"settings":
@@ -537,10 +561,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 577.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -549,15 +573,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17567,
+						"buffer_size": 17615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17041,
-								17047
+								3956,
+								3956
 							]
 						],
 						"settings":
@@ -566,40 +590,39 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 112.0,
-						"translation.y": 4675.0,
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "shuteye/imports/ui/NewsRichTemplate.jsx",
+					"file": "shuteye/resources/system/en.i18n.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1219,
+						"buffer_size": 95,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								963,
-								963
+								53,
+								53
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

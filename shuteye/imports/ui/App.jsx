@@ -87,7 +87,7 @@ export default class App extends Component {
                                         </div>
                                     </div>
                                     <div>
-                                        <ReactPlayer url="/videos/Shuteye.mp4" controls/>
+                                        <ReactPlayer url={i18n.__("system.video.main")} controls/>
                                     </div>
                                 </div>
                             </div>
@@ -267,15 +267,15 @@ export default class App extends Component {
                         </div>
                     </MainFrame>
                     <MainFrame id="what" title={i18n.__("common.navbar.WhatIsNew")}>
-                        <div className="row">
-                            <div className="col-xs-9">
+                        <div className="row comm-pane">
+                            <div className="col-xs-8">
                                 <NewsRichTemplate
                                     img="https://www.dinheirovivo.pt/wp-content/uploads/2015/11/7125716_GI30112012Sarahcosta000009-740x415.jpg"
                                     title="Acredita Portugal. Escolhidas as ..."
                                     discription="São 21 projetos divididos em sete categorias. Os vencedores ..."
                                     url="https://www.dinheirovivo.pt/fazedores/acredita-portugal-escolhidas-as-startups-finalistas-do-concurso-do-montepio/"></NewsRichTemplate>
                             </div>
-                            <div className="col-xs-3">
+                            <div className="col-xs-4">
                                 <EmailSubmissionForm/>
                                 <div className="social">
                                     <T _props={{className:'title'}}>common.whatisnew.joinUsOn</T>

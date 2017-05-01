@@ -23,6 +23,14 @@ $headerfontbase: 'sans-serif' 14px;
 
 @import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 
+.back-soon{
+    position: fixed;
+    right: 70px;
+    width: 140px;
+    top: -19px;
+    z-index: 10000;
+}
+
 a{
     user-select: none;
     cursor: pointer;
@@ -167,7 +175,6 @@ h1{
 
 .dropdown .dropdown-menu{
     min-width: 20px;
-
     li{
         padding:0;
         margin: 0;
@@ -495,6 +502,11 @@ header .hide-completed {
     }
 }
 
+.comm-pane{
+    width: 70%;
+    padding-top: 35px;
+}
+
 .news-pane{
     position: relative;
     width: 600px;
@@ -531,6 +543,7 @@ header .hide-completed {
     width: 300px;
     
     .title{
+        display: block;
         text-transform: capitalize;
         font-size: 24px;
         padding-bottom: 10px;
@@ -558,6 +571,7 @@ header .hide-completed {
         color:#a0a0a9;
         box-shadow: 0 0 3px;
         border-color: transparent;
+        border-radius: 30px;
         &:hover{
             color:#29487d;
             background-color: white;
