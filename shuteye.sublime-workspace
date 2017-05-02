@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top"
+			],
+			[
 				"pad",
 				"padding-top"
 			],
@@ -243,7 +247,7 @@
 			"file": "shuteye/client/main.scss",
 			"settings":
 			{
-				"buffer_size": 9749,
+				"buffer_size": 9785,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -356,11 +360,8 @@
 	"expanded_folders":
 	[
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/api",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/imports/ui",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/common",
-		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/resources/system",
 		"/C/Users/Luiz/Documents/work/Sites/shuteye/shuteye/server"
 	],
 	"file_history":
@@ -505,7 +506,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -514,15 +515,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9749,
+						"buffer_size": 9785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								692,
-								692
+								5229,
+								5229
 							]
 						],
 						"settings":
@@ -532,10 +533,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 5173.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -610,8 +611,8 @@
 						"selection":
 						[
 							[
-								53,
-								53
+								95,
+								95
 							]
 						],
 						"settings":
@@ -622,7 +623,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -716,7 +717,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":

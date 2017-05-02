@@ -301,7 +301,8 @@ header .hide-completed {
         background: none;
 
         .page-title{
-            padding-top: 45%;
+            /*padding-top: 45%;*/
+            padding-top: 300px;
         }
         h1,h2{
             @include text-stroke(black);
