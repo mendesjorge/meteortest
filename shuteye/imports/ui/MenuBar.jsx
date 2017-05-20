@@ -31,6 +31,9 @@ export default class MenuBar extends Component {
 							<div/>
 						</a>
 						<LanguageDrop/>
+						<a className="btn btn-default back-soon" role="button" target="_blank" href="https://shuteye.sharetribe.com">
+                            <T>common.navbar.GoToMarket</T>
+                        </a>
 					</div>
 					<div className="collapse navbar-collapse">
 						<ul className="navbar-nav mr-auto">
