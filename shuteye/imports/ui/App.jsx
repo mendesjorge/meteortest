@@ -283,6 +283,12 @@ export default class App extends Component {
                                         <a className="btn fb-btn btn-default" href="https://www.facebook.com/shuteye.pt" role="button" target="_blank">
                                             <span className="socicon-facebook"></span>
                                         </a>
+                                        <a className="btn tw-btn btn-default" href="https://twitter.com/shuteye_pt" role="button" target="_blank">
+                                            <span className="socicon-twitter"></span>
+                                        </a>
+                                        <a className="btn ig-btn btn-default" href="https://www.instagram.com/shuteye.pt/" role="button" target="_blank">
+                                            <span className="socicon-instagram"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
