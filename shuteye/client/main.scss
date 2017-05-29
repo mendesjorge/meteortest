@@ -565,18 +565,41 @@ header .hide-completed {
         font-size: 24px;
     }
 
-    .btn.fb-btn{
-        
+    .btn{
+        color:#a0a0a9;
         margin: 10px 10px;
         font-size:30px;
-        color:#a0a0a9;
         box-shadow: 0 0 3px;
         border-color: transparent;
         border-radius: 30px;
-        &:hover{
-            color:#29487d;
+
+        span{
+            position: relative;
+            top:3px;
+        }
+        &:focus{
+            color:#a0a0a9;
             background-color: white;
             border-color: transparent;
+        }
+        &:hover{
+            background-color: white;
+            border-color: transparent;
+        }
+    }
+    .fb-btn{
+        &:hover{
+            color:#29487d;
+        }
+    }
+    .tw-btn{
+        &:hover{
+            color:#4da7de;
+        }
+    }
+    .ig-btn{
+        &:hover{
+            color:#E96A24;
         }
     }
 }
