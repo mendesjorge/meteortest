@@ -6,6 +6,7 @@ import i18n from 'meteor/universe:i18n';
 import ImageGallery from 'react-image-gallery';
 import MainFrame from './MainFrame';
 import MenuBar from './MenuBar';
+import NewsBar from './NewsBar';
 import NewsRichTemplate from './NewsRichTemplate';
 import ReactPlayer from 'react-player';
 
@@ -276,7 +277,7 @@ export default class App extends Component {
                                     url="https://www.dinheirovivo.pt/fazedores/acredita-portugal-escolhidas-as-startups-finalistas-do-concurso-do-montepio/"></NewsRichTemplate>
                             </div>
                             <div className="col-xs-4">
-                                <EmailSubmissionForm/>
+                                {/*<EmailSubmissionForm/>*/}
                                 <div className="social">
                                     <T _props={{className:'title'}}>common.whatisnew.joinUsOn</T>
                                     <div className="display-flex">
@@ -294,6 +295,7 @@ export default class App extends Component {
                             </div>
                         </div>
                     </MainFrame>
+                    <NewsBar/>
                 </div>
             </div>
             );
