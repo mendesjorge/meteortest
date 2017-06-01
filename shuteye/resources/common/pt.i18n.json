@@ -43,7 +43,7 @@
 		 "SimpleOwnerDescription":"Começa hoje sem quaisquer taxas(mensais ou anuais) e nos disponibilizamos lençoes e pijamas novos",
 		"SafeOwnerDescription":"Usufrui logo de seguranca no pagamento e no usa da sua casa de sestas sem qualquer risco de dano ou furto",
 		"ProfitOwnerDescription":"Obtem ja um rendimento extra por casa sesta superior ao que obterias se arrendasses", 
-		"SimpleClientDescription":"Fácil de marcar à última da hora em apenas 3 cliques",
+		"SimpleClientDescription":"Fácil de marcar à última hora em apenas 3 cliques",
 		"NearClientDescription":"Espaços próximos de ti ou do teu local de trabalho",
 		"ComfortableClientDescription":"Reservas desde 30 minutos em espaços de qualidade",
 		"PleasantClientDescription":"",
@@ -59,13 +59,14 @@
 		"Start":"Começa",
 		"SimulateDescription":"",
 		"RegistryDescription":"",
-		"StartDescription":"Reserva o espaço que mais gostas com a duração pretendida (desde 30 minutos) e disfruta da experiência.",
+		"StartDescription":"Reserva o espaço que mais gostas com a duração pretendida (desde 30 minutos) e desfruta da experiência.",
 		"RegistYouDescription":"Introduz os teus dados e preferências. Sugerimos-te os espaços com os teus requisitos e mais convenientes para ti.",
 		"SearchDescription":"Procura o espaço ideal (dentro das nossas sugestões ou fora), vê fotografias do interior e comentários de hóspedes anteriores."
 	},
 	"whatisnew":{
 		"submitBtn":"Submeter",
-		"getNews":"receber novidades",
+		"getNews":"Receber novidades",
+		"listAccommodation":"Disponibilizar espaço",
 		"joinUsOn":"Segue-nos em:"
 	}
 }

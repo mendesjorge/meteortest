@@ -47,7 +47,7 @@ export default class EmailPropertiesForm extends Component{
 				<div id="propSubs">
 					<form className="email-form" onSubmit={this.handleSubmit.bind(this)}>
 						<fieldset ref="emailFieldset">
-							<T _props={{className:'title'}}>common.whatisnew.getNews</T>
+							<T _props={{className:'title'}}>common.whatisnew.listAccommodation</T>
 							<div className="display-flex input-group">
 								<input className="form-control"
 									type="email"

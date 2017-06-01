@@ -65,7 +65,8 @@
 	},
 	"whatisnew":{
 		"submitBtn":"Submit",
-		"getNews":"get news",
+		"getNews":"Get news",
+		"listAccommodation":"Add accommodation",
 		"joinUsOn":"Join us on:"
 	}
 }

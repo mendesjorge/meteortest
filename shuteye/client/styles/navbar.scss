@@ -1,7 +1,7 @@
 $bgDefault      : #000000;
-$bgHighlight    : #44ad94;
-$colDefault     : #c85f3e;
-$colHighlight   : #f7f7f7;
+$bgHighlight    : #37BDA0;
+$colDefault     : #f7f7f7;
+$colHighlight   : #37BDA0;
 $btnDefault     : #f7f7f7;
 $bgBtnDefault   : #44ad94;
 $dropDown       : false;
@@ -9,6 +9,23 @@ $dropDown       : false;
   background-color: $bgDefault;
   border-color: $bgHighlight;
   padding: 10px;
+  .container-fluid{
+    width: 90%;
+    .btn{
+      color:$btnDefault;
+      background-color: $bgBtnDefault;
+
+      &:hover{
+        background-color:$bgHighlight;
+      };
+    }
+  }
+  .navbar-right{
+      margin-right: 0;
+    }
+  .title{
+    color:$colDefault;
+  }
   .navbar-brand {
     color: $colDefault;
     &:hover, &:focus {
@@ -58,6 +75,9 @@ $dropDown       : false;
       color:$btnDefault;
       background-color: $bgBtnDefault;
     }
+    .title{
+      color:$colDefault;
+    }
   }
   .navbar-link {
     color: $colDefault;
@@ -73,4 +93,24 @@ $dropDown       : false;
       > a, > a:hover, > a:focus {
         color: $colHighlight;
         background-color: $bgHighlight; }}}
+}
+@media(max-width: 1250px){
+  .navbar-news {
+    .container-fluid{
+      display: flex;
+      flex-direction: column;
+      
+      .navbar-right{
+        float: none !important;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      .navbar-left{
+        float: none !important;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
 }
